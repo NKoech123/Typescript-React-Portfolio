@@ -109,7 +109,8 @@ body{
     font-weight: 400;
   }
 
-  .contentwrappper{
+  .contentwrapper{
+      
     width: 1440px;
     height: 789px;
     padding-top: 311px;
@@ -122,3 +123,28 @@ body{
     margin-bottom: 15px;
 
   }
+
+  .keyword{
+    display: flex;
+    margin-right: 24px;
+
+  }
+
+  .text-block{
+      color:white;
+
+  }
+
+  .marker{
+      margin-right: 5px;
+  }
+
+  .name{
+    color:white;
+
+}
+
+.title{
+    color:white;
+
+}
