@@ -127,6 +127,8 @@ body{
   .keyword{
     display: flex;
     margin-right: 24px;
+    margin-bottom: 15px;
+
 
   }
 
@@ -140,13 +142,22 @@ body{
   }
 
   .name{
-    color:white;
-
+    color: #fff;
+    margin-top: 20px;
+    margin-bottom:8px;
+    font-family: 'Open Sans', sans-serif;
+    
+    font-size: 90px;
+    line-height: 1;
 }
 
 .title{
-    color:white;
-
+    color:#fff;
+    margin-bottom: 50px;
+    font-family: '';
+    font-size: 20px;
+    line-height: 1;
+    font-family: 'SF Mono', monospace;
 }
 
 /* Entire button container */
