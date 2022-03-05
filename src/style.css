@@ -149,22 +149,72 @@ body{
 
 }
 
+/* Entire button container */
 .btn-wrapper{
-display: -webkit-box;
-display: -webkit-flex;
-display: -ms-flexbox;
-display: flex;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px;
+
+
 }
 
+/* Download resume */
+.btn{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin-right: 30px;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #ef855b;
+    
+}
 
+.btn:hover {
+    background-color: #469e84;
+  }
+/* Download resume btn txt */
 .btn-txt {
-padding: 18px 34px;
-font-family: 'Open Sans', sans-serif;
-color: #fff;
-font-size: 20px;
-line-height: 1;
+    padding: 18px 34px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    font-size: 20px;
+    line-height: 1;
+
   }
 
-.btn-txt  .outline {
-    color: #ef855b;
+  /* About me outline */
+.btn-outline {
+    width: auto;
+    height: auto;
+    border: 1px solid #ef855b;
+    background-color: #00000000;
+    border-radius: 20px;
+   
   }
+  
+
+   /* About me outline txt */
+.btn-txt .outline {
+    color: #ef855b;
+   
+}
+
+.btn-outline:hover {
+    border-color: #469e84;
+    
+   } 
+
+.outline:hover {
+    color: #469e84;
+   
+}
