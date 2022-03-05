@@ -136,7 +136,7 @@ body{
   }
 
   .marker{
-      margin-right: 5px;
+      margin-right: 8px;
   }
 
   .name{
@@ -148,3 +148,23 @@ body{
     color:white;
 
 }
+
+.btn-wrapper{
+display: -webkit-box;
+display: -webkit-flex;
+display: -ms-flexbox;
+display: flex;
+}
+
+
+.btn-txt {
+padding: 18px 34px;
+font-family: 'Open Sans', sans-serif;
+color: #fff;
+font-size: 20px;
+line-height: 1;
+  }
+
+.btn-txt  .outline {
+    color: #ef855b;
+  }
