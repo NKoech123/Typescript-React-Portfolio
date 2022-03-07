@@ -1,6 +1,9 @@
+
+
 body{
     font-family: Arial, sans-serif;
 }
+
 .section {
   
     height:100vh;
@@ -10,6 +13,7 @@ body{
 }
 
 .container{
+    
     display: flex ;
     overflow: hidden;
     height: 100vh;
@@ -229,3 +233,6 @@ body{
     color: #469e84;
    
 }
+
+
+
