@@ -16,8 +16,8 @@ body{
     
     display: flex ;
     overflow: hidden;
-    height: 100vh;
-    max-width: 1440px;
+
+  
 
     flex-direction: column;
     align-items: center;
@@ -40,7 +40,7 @@ body{
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 1440px;
+    width: 1200px;
     height: 65px;
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
@@ -115,16 +115,20 @@ body{
 
   .contentwrapper{
       
-    width: 1440px;
-    height: 789px;
-    padding-top: 311px;
+    width: 1200px;
+    height: 600px;
+    margin-left:-180px;
+    padding-top: 60px;
     padding-bottom: 195px;
 
   }
 
   .keywords{
     display: flex;
+    margin-top:250px;
     margin-bottom: 15px;
+    margin-right:15px;
+    width:600px;
 
   }
 
@@ -132,6 +136,7 @@ body{
     display: flex;
     margin-right: 24px;
     margin-bottom: 15px;
+
 
 
   }
@@ -171,7 +176,7 @@ body{
     display: -ms-flexbox;
     display: flex;
     margin-top: 10px;
-
+    width:600px;
 
 }
 
@@ -234,5 +239,18 @@ body{
    
 }
 
+.socials {
 
+  
+  width: 40px;
+  height:160px;
+  margin-top:-200px;
+  padding-bottom:100px;
+  margin-left: 1200px;
+  display:flex;
+  flex-direction:column;
+}
 
+.social {
+  margin: 5px;
+}
