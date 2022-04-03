@@ -2,7 +2,9 @@
 
 body{
     font-family: Arial, sans-serif;
+    background-color: #1a2c32;
     color: rgb(51, 51, 51);
+    
 }
 
 .section {
@@ -230,6 +232,12 @@ body{
    
 }
 
+/* remove the underline link from #about-me button */
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .btn-outline:hover {
     border-color: #469e84;
     
@@ -262,6 +270,7 @@ body{
   display: flex;
   justify-content: space-around;
   padding: 80px;
+ 
 }
 
 .sub-section-alternative {
@@ -269,6 +278,8 @@ body{
   flex-direction: column;
   text-align: center;
   padding: 80px;
+  height:100vh
+  
 }
 
 .headshot {
@@ -294,71 +305,10 @@ body{
   justify-content: space-around;
 }
 
-@media only screen and (max-width: 1000px) {
-  .project-container {
-      display: flex;
-      flex-wrap: wrap;
-  }
-}
-
-.project-image {
-  margin-top: 25px;
-  width: 250px;
-  border-radius: 125px;
-}
-
-hr {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-.project-link {
-  text-decoration: none;
-  color: #ef744b;
-}
-
-a {
-  text-decoration: none;
-  color: white;
-}
-
-.hamburger {
-  display: none;
-}
-
-.hamburger:focus{
-  outline: 0;
-}
 
 
-@media only screen and (max-width: 1000px) {
-  .hamburger {
-      display: block;
-      border: 0;
-      background-color: transparent;
-      color: white;
-      font-size: 30px;
-      margin: 20px;
-      align-self: flex-end;
-  }
-
-  ul {
-      display: none;
-      background-color: #2b2c38;
-      margin: 0ppx;
-  }
-
-  ul.show {
-      display: block;
-  }
-
-  nav {
-      display: flex;
-      flex-direction: column-reverse;
-      background-color: #2b2c38;
-  }
-
-  .logo {
-      display: none;
+@media screen and (min-width: 400px) {
+  body {
+    background-color: lightgreen;
   }
 }
