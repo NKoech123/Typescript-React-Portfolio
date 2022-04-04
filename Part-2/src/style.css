@@ -20,8 +20,6 @@ body{
     display: flex ;
     overflow: hidden;
 
-  
-
     flex-direction: column;
     align-items: center;
 
@@ -250,7 +248,6 @@ a {
 
 .socials {
 
-  
   width: 40px;
   height:160px;
   margin-top:-200px;
@@ -265,34 +262,55 @@ a {
 }
 
 
+/*  About-me section:Page 2 */
 
-.sub-section {
+
+.about-me-container{
+
+  padding:30px;
   display: flex;
   justify-content: space-around;
-  padding: 80px;
- 
-}
 
-.sub-section-alternative {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding: 80px;
-  height:100vh
-  
-}
-
-.headshot {
-  width: 300px;
-  border-radius: 150px;
-  margin-left: 80px;
 }
 
 .headshot-container {
   display: flex;
   align-items: center;
+  width:250px;
+  height:250px;
+  margin-left:10px;
+  margin:20px;
+  flex-direction: column;
+  top:150px;
+  padding:40px;
+
 }
 
+.headshot {
+  width: 300px;
+  border-radius: 150px;
+  
+}
+
+.information-container{
+  width:600px;
+  padding:20px;
+  margin-top:20px;
+  justify-content: space-between;
+  flex-direction: row;
+
+}
+
+p{
+  color: white;
+  font-size: 20px;
+
+}
+ /*  Projects section:Page 3 */
+ .project-container {
+  display: flex;
+  justify-content: space-around;
+}
 .project-card {
   width: 300px;
   height: 500px;
@@ -300,15 +318,26 @@ a {
   margin: 10px;
 }
 
-.project-container {
-  display: flex;
-  justify-content: space-around;
-}
-
-
-
+/* ----------- ----------- 
 @media screen and (min-width: 400px) {
   body {
     background-color: lightgreen;
   }
+}
+*/
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
 }
