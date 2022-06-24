@@ -11,6 +11,7 @@ import {
 } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import { Logo } from "./Logo"
+import customTheme from "./theme"
 
 export const App = () => (
   <ChakraProvider theme={theme}>
@@ -19,7 +20,7 @@ export const App = () => (
         <ColorModeSwitcher justifySelf="flex-end" />
         <VStack spacing={8}>
           <Logo h="40vmin" pointerEvents="none" />
-          <Text>
+          <Text color='whiteColor'>
             Edit <Code fontSize="xl">src/App.tsx</Code> and save to reload.
           </Text>
           <Link
