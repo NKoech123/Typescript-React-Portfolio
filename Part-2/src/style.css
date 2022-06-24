@@ -5,13 +5,14 @@ body{
     background-color: #1a2c32;
     color: rgb(51, 51, 51);
     width: 100%;
-    height: 100%;
+    height: 100vh;
     
 }
 
 .section {
-  
+
     height:100vh;
+    width:100%;
     background-color: #1a2c32;
     color: rgb(51, 51, 51);
     
@@ -20,6 +21,9 @@ body{
 .container{
     display: flex ;
     overflow: hidden;
+    width:100%;
+
+    
 
     flex-direction: column;
     align-items: center;
@@ -33,6 +37,7 @@ body{
 .w-container{
     margin-left: auto;
     margin-right: auto;
+    width:100%;
 
 }
 
