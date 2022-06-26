@@ -3,8 +3,8 @@ import React from "react";
 
 type PFButtonType = {
   variant?: "ghost" | "solid" | "navBar";
-  stylesProps?: Object;
   children: any;
+  stylesProps?: Object;
   OnClick?: any;
 };
 
