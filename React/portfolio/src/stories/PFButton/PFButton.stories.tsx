@@ -9,6 +9,7 @@ export default {
 export const Default = () => {
   return (
     <PFButton
+      variant = "outline"
       stylesProps={{
         width: "208px",
         height: "47px",
