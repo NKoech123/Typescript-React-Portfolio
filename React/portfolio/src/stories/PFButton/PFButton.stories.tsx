@@ -6,7 +6,7 @@ export default {
   component: PFButton,
 };
 
-export const Default = () => {
+export const DownloadResumeButton = () => {
   return (
     <PFButton
       variant = "solid"
@@ -24,7 +24,7 @@ export const Default = () => {
 };
 
 //will change GhostButton to AboutMeButton
-export const GhostButton = () => {
+export const AboutMeButton = () => {
   return (
     <PFButton
       variant="outline"
