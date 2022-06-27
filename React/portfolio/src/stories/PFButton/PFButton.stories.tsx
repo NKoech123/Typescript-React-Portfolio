@@ -23,16 +23,17 @@ export const Default = () => {
   );
 };
 
+//will change GhostButton to AboutMeButton
 export const GhostButton = () => {
   return (
     <PFButton
-      variant="ghost"
+      variant="outline"
       stylesProps={{
         fontSize: "16px",
         fontWeight: "400",
       }}
     >
-      View All
+      About me
     </PFButton>
   );
 };
