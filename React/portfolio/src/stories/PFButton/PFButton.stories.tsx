@@ -40,3 +40,21 @@ export const GhostButton = () => {
     </PFButton>
   );
 };
+
+//will change GhostButton to AboutMeButton
+export const SayHelloButton = () => {
+    return (
+      <PFButton
+        variant="outline"
+        stylesProps={{
+          fontSize: "16px",
+          fontWeight: "400",
+          borderColor:"#EF855B",
+          
+          
+        }}
+      >
+        Say Hello !
+      </PFButton>
+    );
+  };
