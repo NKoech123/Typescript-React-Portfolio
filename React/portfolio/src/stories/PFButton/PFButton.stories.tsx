@@ -9,7 +9,7 @@ export default {
 export const Default = () => {
   return (
     <PFButton
-      variant = "outline"
+      variant = "solid"
       stylesProps={{
         width: "208px",
         height: "47px",
@@ -31,6 +31,9 @@ export const GhostButton = () => {
       stylesProps={{
         fontSize: "16px",
         fontWeight: "400",
+        borderColor:"#EF855B",
+        
+        
       }}
     >
       About me

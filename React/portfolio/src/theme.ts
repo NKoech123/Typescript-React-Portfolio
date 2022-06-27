@@ -4,7 +4,8 @@ const customTheme = extendTheme({
   colors: {
     backgoundColor: "#1A2C32",
     secondary_green: "#469E84",
-    buttonColor: "#EF855B",
+    solidButtonColor: "#EF855B",
+    outlineButtonColor: "#EF855B",
     whiteColor: "#FFFFFF",
     secondArrowdColor: "#877198",
 
@@ -14,11 +15,13 @@ const customTheme = extendTheme({
     Button: {
       variants: {
         solid: {
-          backgroundColor: "backgoundColor",
+          backgroundColor: "solidButtonColor",
           color: "whiteColor",
         },
-        ghost: {
-          color: "secondary",
+        outline: {
+          color: "outlineButtonColor",
+         
+         
         },
         navBar: {
           fontSize: "18px",
