@@ -50,3 +50,35 @@ export const HeadingGetInTouch = () =>{
 
 };
 
+export const HeadingProject1 = () =>{
+    return (
+        <PFHeading
+            variant= "ProjectsHeading"
+            text = "Project 1"
+
+        />
+    );
+
+};
+
+export const HeadingProject2 = () =>{
+    return (
+        <PFHeading
+            variant= "ProjectsHeading"
+            text = "Project 2"
+
+        />
+    );
+
+};
+
+export const HeadingProject3 = () =>{
+    return (
+        <PFHeading
+            variant= "ProjectsHeading"
+            text = "Project 3"
+
+        />
+    );
+
+};

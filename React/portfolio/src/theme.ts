@@ -36,6 +36,10 @@ const customTheme = extendTheme({
           fontSize: "90px",
           lineHeight: "100px",
         },
+        "ProjectsHeading": {
+            fontSize: "30px",
+            lineHeight: "45px",
+          },
        
         },
       },
@@ -45,39 +49,14 @@ const customTheme = extendTheme({
         "1": {
           fontSize: "16px",
           lineHeight: "23px",
-          color: "whiteColor",
+          color: "darkColor",
         },
         "2": {
           fontSize: "22px",
           lineHeight: "60px",
           color: "darkColor",
         },
-        "3": {
-          fontSize: "18px",
-          lineHeight: "26px",
-          color: "darkColor",
-        },
-        "4": {
-          fontSize: "20px",
-          lineHeight: "29.3px",
-          color: "lightColor",
-        },
-        "5": {
-          fontSize: "14px",
-          lineHeight: "20.5px",
-          color: "darkColor",
-        },
-        "6": {
-          fontSize: "20px",
-          lineHeight: "29.38px",
-          color: "darkColor",
-        },
-        "7": {
-          fontSize: "16px",
-          fontWeight: 400,
-          lineHeight: "23.5px",
-          color: "darkColor",
-        },
+ 
       },
     },
   },
