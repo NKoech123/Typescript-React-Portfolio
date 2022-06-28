@@ -1,14 +1,11 @@
 import React from "react";
 import PFIconButton from "../../foundation/PFIconButton/PFIconButton";
-
-
 import {
     FaMedium,
     FaLinkedin,
     FaGithub,
-    
-    
 } from "react-icons/fa";
+
 
 export default {
   title: "Foundation/PFIconButton",
