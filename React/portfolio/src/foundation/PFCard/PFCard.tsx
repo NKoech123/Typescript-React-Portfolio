@@ -1,15 +1,7 @@
 import React from 'react';
-import { Image } from '@chakra-ui/react'
 
-import {   
-    Box,
-    Center,
-    Heading,
-    Text,
-    Stack,
-    Avatar,
-    useColorModeValue, } 
-from '@chakra-ui/react';
+import { Image , Box} from '@chakra-ui/react'
+
 
 type PFCardProps = {
     img: string;
