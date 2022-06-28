@@ -52,9 +52,7 @@ export const ParagraphExperience3 = () => {
     return <PFParagraph 
            variant ="1" 
            text= 
-           "Owned database migration to PostgreSQL.Performed schema migrations on Prisma ORM and utilized DBeaver to visualize, 
-           communicate and propose some changes to the schema.Data cleaning: Created an automated program that detects invalid addresses in the old database and sends such 
-            addressses automatically to the relations teamCreated a program to convert valid ethereum ENS name address to 42-char hexadecimal addresses"
+           "Owned database migration to PostgreSQL"
            
         />
 }
