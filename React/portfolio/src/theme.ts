@@ -32,21 +32,11 @@ const customTheme = extendTheme({
     },
     Heading: {
       variants: {
-        "1": {
-          fontSize: "44px",
-          lineHeight: "60px",
+        "OrderedContents": {
+          fontSize: "90px",
+          lineHeight: "100px",
         },
-        "2": {
-          fontSize: "34px",
-          lineHeight: "50px",
-        },
-        "3": {
-          fontSize: "30px",
-          lineHeight: "44px",
-        },
-        "4": {
-          fontSize: "26px",
-          lineHeight: "38px",
+       
         },
       },
     },
@@ -91,7 +81,7 @@ const customTheme = extendTheme({
       },
     },
   },
-});
+);
 
 export default customTheme;
 
