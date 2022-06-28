@@ -11,7 +11,7 @@
     "@testing-library/react": "^13.0.1",
     "@testing-library/user-event": "^14.1.0",
     "@types/jest": "^25.0.0",
-    "@types/node": "^12.0.0",
+    "@types/node": "^12.20.55",
     "@types/react": "^18.0.9",
     "@types/react-dom": "^18.0.4",
     "framer-motion": "^6.2.9",
@@ -71,3 +71,10 @@
     "webpack": "^5.73.0"
   }
 }
+
+
+
+
+
+
+
