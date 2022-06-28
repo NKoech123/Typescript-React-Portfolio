@@ -50,7 +50,7 @@ export const HeadingGetInTouch = () =>{
 
 };
 
-export const HeadingProject1 = () =>{
+export const HeadingProject1:React.FC = () =>{
     return (
         <PFHeading
             variant= "ProjectsHeading"

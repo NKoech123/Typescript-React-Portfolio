@@ -7,7 +7,7 @@ type PFCardProps = {
     img: string;
     projectname: React.ReactNode;
     paragraph: React.ReactNode;
-    githubicon: React.ReactNode;
+    githubicon?: React.ReactNode;
 
 }
 export default function PFCard({img,projectname,paragraph,githubicon}:PFCardProps){
