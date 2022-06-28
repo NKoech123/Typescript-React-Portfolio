@@ -31,11 +31,9 @@ export const ParagraphSkills = () => {
 
 export const ParagraphExperience1 = () => {
     return <PFParagraph 
-           variant ="1" 
-           text= 
-           " Estimated construction material quantities of these projects:
-             1. Honolulu Rail Transit Project Phase 3 HART City Center (~$1.5B), Honolulu, HI
-             2. Mount Vernon Ave Bridge Retrofit project (~$113M), City of San Bernardino, CA "
+            variant ="1" 
+            text= 
+            " Estimated construction material quantities of these projects:Honolulu Rail Transit Project Phase 3 HART City Center (~$1.5B), Honolulu, HI Mount Vernon Ave Bridge Retrofit project (~$113M), City of San Bernardino, CA "
     
         
         />
@@ -45,11 +43,7 @@ export const ParagraphExperience2 = () => {
     return <PFParagraph 
            variant ="1" 
            text= 
-           "SF BART Market Street Project($65M)
-           Data extraction and analysis of take-off data and project scheduling automation.
-           Managed 3 electrical and subsurface sub-contractors
-           
-           "
+           "SF BART Market Street Project($65M). Data extraction and analysis of take-off data and project scheduling automation.Managed 3 electrical and subsurface sub-contractors "
            
         />
 }
@@ -58,14 +52,9 @@ export const ParagraphExperience3 = () => {
     return <PFParagraph 
            variant ="1" 
            text= 
-           "Owned database migration to PostgreSQL
-           Performed schema migrations on Prisma ORM and utilized DBeaver to visualize, 
-           communicate and propose some changes to the schema.
-        
-           Data cleaning:
-            Created an automated program that detects invalid addresses in the old database and sends such 
-            addressses automatically to the relations team
-            Created a program to convert valid ethereum ENS name address to 42-char hexadecimal addresses "
+           "Owned database migration to PostgreSQL.Performed schema migrations on Prisma ORM and utilized DBeaver to visualize, 
+           communicate and propose some changes to the schema.Data cleaning: Created an automated program that detects invalid addresses in the old database and sends such 
+            addressses automatically to the relations team.Created a program to convert valid ethereum ENS name address to 42-char hexadecimal addresses"
            
         />
 }

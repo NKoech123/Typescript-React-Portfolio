@@ -1,4 +1,5 @@
 import { extendTheme } from "@chakra-ui/react";
+import "@fontsource/heebo";
 
 const customTheme = extendTheme({
   colors: {
@@ -11,6 +12,12 @@ const customTheme = extendTheme({
     darkColor: "#000000"
 
   },
+  fonts:{
+    heading: "Heebo",
+    body: "Heebo",
+
+  },
+
   components: {
 
     Button: {
