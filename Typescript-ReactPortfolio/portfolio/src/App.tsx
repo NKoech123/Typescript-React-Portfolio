@@ -11,7 +11,7 @@ import {
 } from "@chakra-ui/react"
 import { ColorModeSwitcher } from "./ColorModeSwitcher"
 import {Flex} from '@chakra-ui/react';
-import { NavbarLogo, NavbarContact, NavbarProjects } from "./components/Navbar/Navbar";
+import { NavbarLogo} from "./components/Navbar/Navbar";
 import {NavbarHypers} from "./components/Navbar/NavbarHyperLinks";
 //import customTheme from "./theme"
 //ColorModeSwitcher justifySelf="flex-end" />
