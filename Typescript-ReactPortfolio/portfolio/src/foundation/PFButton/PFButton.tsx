@@ -20,3 +20,21 @@ export default function PFButton({
     </Button>
   );
 }
+
+
+export const DownloadResumeButton = () => {
+  return (
+    <PFButton
+      variant = "solid"
+      stylesProps={{
+        width: "208px",
+        height: "47px",
+        borderRadius: "10px",
+        // fontSize: "20px",
+      }}
+      OnClick={() => {}}
+    >
+      Download Resume
+    </PFButton>
+  );
+};
