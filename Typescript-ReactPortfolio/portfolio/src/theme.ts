@@ -9,7 +9,8 @@ const customTheme = extendTheme({
     outlineButtonColor: "#EF855B",
     whiteColor: "#FFFFFF",
     secondArrowdColor: "#877198",
-    darkColor: "#000000"
+    darkColor: "#000000",
+    arrowColor: "#469E84"
 
   },
   fonts:{
