@@ -19,7 +19,6 @@ import {NavbarHypers} from "./components/Navbar/NavbarHyperLinks";
 import PFKeywords from './foundation/PFKeywords/PFKeywords';
 import PFHeading from './foundation/PFHeading/PFHeading';
 import PFButton from './foundation/PFButton/PFButton'
-import DownloadResumeButton from './foundation/PFButton/PFButton'
 import {
   FaCaretRight
 } from "react-icons/fa";
@@ -29,13 +28,13 @@ export const App = () => (
   <ChakraProvider theme={theme}>
         
         <VStack p={15}>
-          <Flex w="100%" pl="8%" pr="8%">
+          <Flex w="100%" pl="8%" pr="8%" bg="#1A2C32">
            <Box> <NavbarLogo/></Box>
            <Spacer/>
            <Box > <NavbarHypers/></Box>
           </Flex>
 
-          <Flex w="100%" pl="8%" pr="8%" pt="20px">
+          <Flex w="100%" pl="8%" pr="8%" pt="20px" bg="#1A2C32">
             <VStack>
             <HStack>
               <Box> <PFKeywords arrowIcon={<FaCaretRight/>} ariaLabel="keyword"/> Python</Box>
