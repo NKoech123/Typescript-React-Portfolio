@@ -17,7 +17,15 @@ export const Intro = () => {
                 <VStack>
                     <HStack spacing="10px" alignItems="center">
                       <Text><Keyword arrowIcon={VscTriangleRight}/>Python</Text>
-                      <Text><Keyword arrowIcon={VscTriangleRight}/></Text>
+                      <Text><Keyword arrowIcon={VscTriangleRight}/>Typescript</Text>
+                      <Text><Keyword arrowIcon={VscTriangleRight}/>SQL</Text>
+                      <Text><Keyword arrowIcon={VscTriangleRight}/>HTML</Text>
+                      <Text><Keyword arrowIcon={VscTriangleRight}/>CSS</Text>
+                    </HStack>
+                <Text fontSize="60px">Nicholas Koech</Text>
+                <Text fontSize="40px" pr="10px">Software engineer</Text>
+                    
+                    <HStack pt='20px'>
                       <PFButton
                             variant = "solid"
                             stylesProps={{
