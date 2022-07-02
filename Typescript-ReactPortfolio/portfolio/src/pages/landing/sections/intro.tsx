@@ -10,7 +10,7 @@ import { SocialIcons } from '../../../components/socialIcons';
 export const Intro = () => {
   return (
 
-    <Box w="full" bg="#1A2C32" px="200px" py="60px" mb="120px">
+    <Box w="full" bg="#1A2C32" px="144px" py="100px" mb="120px">
       <Flex>
         <Flex alignItems="center">
           <HStack>
@@ -22,15 +22,17 @@ export const Intro = () => {
                       <Text><Keyword arrowIcon={VscTriangleRight}/>HTML</Text>
                       <Text><Keyword arrowIcon={VscTriangleRight}/>CSS</Text>
                     </HStack>
-                <Text>Nicholas Koech</Text>
-                <Text>Software engineer</Text>
-                    <HStack>
+                <Text fontSize="60px">Nicholas Koech</Text>
+                <Text fontSize="40px" pr="90px">Software engineer</Text>
+                    
+                    <HStack pt='20px' >
                       <PFButton
                             variant = "solid"
                             stylesProps={{
                               width: "208px",
                               height: "47px",
                               borderRadius: "10px",
+                              backgroundColor:"#EF855B"
                               // fontSize: "20px",
                             }}
                             OnClick={() => {}}
@@ -43,6 +45,7 @@ export const Intro = () => {
                               fontSize: "16px",
                               fontWeight: "400",
                               borderColor:"#EF855B",
+                              color: "#EF855B"
                               
                               
                             }}

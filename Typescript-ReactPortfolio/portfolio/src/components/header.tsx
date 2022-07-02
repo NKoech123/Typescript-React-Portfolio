@@ -9,7 +9,7 @@ function Header() {
     bg="#1A2C32"
     alignItems="flex-end"
     justifyContent="space-between">
-        <Flex>
+        <Flex justifyContent="space-between">
             <Heading color="whiteAlpha.900"
                     mr="900px"
                     fontSize={20}

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Flex} from "@chakra-ui/react";
+import {Flex, VStack} from "@chakra-ui/react";
 import PFIconButton from '../foundation/PFIconButton/PFIconButton';
 
 import {
@@ -10,7 +10,8 @@ import {
 
 export const SocialIcons = () => {
   return (
-    <Flex>
+    <Flex  alignItems="flex-end" pl='600'>
+        <VStack spacing="1px">
           <PFIconButton 
             icon={<FaMedium/>}
             ariaLabel = "medium icon"
@@ -29,6 +30,7 @@ export const SocialIcons = () => {
                 onClick={()=>{}}
                 
         />
+    </VStack>
     </Flex>
     
   )
