@@ -11,7 +11,7 @@ export const DownloadResumeButton = () => {
     <PFButton
       variant = "solid"
       stylesProps={{
-        width: "2px",
+        width: "208px",
         height: "47px",
         borderRadius: "10px",
         // fontSize: "20px",
