@@ -10,14 +10,14 @@ import { SocialIcons } from '../../../components/socialIcons';
 export const Intro = () => {
   return (
 
-    <Box w="full" bg="#1A2C32" mx="144px"  mb="164px" height={789}>
+    <Flex w="100%" bg="#1A2C32" mx="8%"  mb="164px" height={789}>
    
        
           <HStack spacing="650px" mt="311px">
              
                 <VStack >
                     <Box ml="0px">
-                    <HStack>
+                    <Flex >
                       
                       <Text ><Keyword arrowIcon={VscTriangleRight}/>Python</Text>
                       <Text ><Keyword arrowIcon={VscTriangleRight}/>Typescript</Text>
@@ -25,7 +25,7 @@ export const Intro = () => {
                       <Text ><Keyword arrowIcon={VscTriangleRight}/>HTML</Text>
                       <Text ><Keyword arrowIcon={VscTriangleRight}/>CSS</Text>
                    
-                    </HStack>
+                    </Flex>
                     </Box>
                     
                     
@@ -77,7 +77,7 @@ export const Intro = () => {
   
    
 
-    </Box>
+    </Flex>
     
   )
 }
