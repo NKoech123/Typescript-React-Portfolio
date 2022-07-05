@@ -3,34 +3,31 @@ import { Flex, Heading, HStack, Link, Box,Text} from "@chakra-ui/react";
 
 const Header = () => {
   return (
-    <Flex  width="100%" mx="8%" height="5.8%" mb="50.4%"> 
 
-    <Flex mx="144px" 
-    mt="50px"
-    bg="#1A2C32"
-    alignItems="center"
-    justifyContent="space-between">
-        <Flex justifyContent="space-between">
-          <Flex>
-            <Heading color="whiteAlpha.900"
-                    ml="4%"
-                    fontSize={30}
-                    fontWeight="700"
-                    height="45px"
-                    letterSpacing="1.5px"
-               
-                >
-                    N<Text fontWeight={200}>K.</Text>
-            </Heading>
-            </Flex>
-            <HStack color="whiteAlpha.900" spacing="24px" ml="800px">
-                <Box><Link fontSize={20} height={30} fontWeight={700}>Projects</Link></Box>
-                <Box><Link fontSize={20} height={30} fontWeight={700}>Contacts</Link></Box>
-            </HStack>
-        </Flex>
+    <Flex mx="8.33%"
+          mt="4.47%"
+          mb="4.38%" 
+          h="5.82%" 
+          justifyContent={['center','space-around','space-between','space-between']}
+          direction={["column", "column", "row", "row"]}
+          
+         
+        >
+       <Flex ml={["4%","4%","4%","4%"]} >
+          <Flex fontWeight='900'> N<Text fontWeight='400'>K.</Text></Flex>
+       </Flex>
+
+      <Flex  direction={["column", "column", "row", "row"]}>
+      <Flex fontWeight='600' my={['10px','0px','0px','0px']} >Projects</Flex>
+      <Flex fontWeight='600' ml={['0px','80px','80px','80px']} my={['10px','0px','0px','0px']}>Contact</Flex>
+      </Flex>
+       
+
     </Flex>
 
-  </Flex>
+   
+  
+
   )
 }
 
