@@ -12,7 +12,7 @@ export const Experience = () => {
             </Flex>
 
             <Flex mr='40px'>
-            <Text  fontWeight='800' fontSize={['20px','40px','60px','90px']}>Experience <sub>2.0</sub></Text>
+            <Text  fontWeight='800' fontSize={['20px','40px','60px','90px']}>Experience <sub>02.</sub></Text>
             </Flex>
 
         </VStack>
