@@ -10,10 +10,10 @@ import { SocialIcons } from '../../../components/socialIcons';
 export const Intro = () => {
   return (
 
-    <Flex mx="8%"  mb="14.68%" w ='83.33%' h='70.64%'>
+    <Flex mx="8%"  mb="14.68%" w ='83.33vw' h='70.64vh'>
    
        
-          <HStack spacing='60%' alignItems='end' >
+          <HStack spacing='37.33vw' alignItems='end' mb='17.46vh' mt='27.84vh'>
              
                 <VStack alignItems= 'start' ml='4.63%' >
                   
@@ -27,7 +27,6 @@ export const Intro = () => {
                    
                     </Flex>
                  
-                    
                     
                     <Flex direction='column' mt='0px'>
                       <Text fontSize="60px" fontWeight="700" height="100px"   whiteSpace='nowrap'>Nicholas Koech</Text>

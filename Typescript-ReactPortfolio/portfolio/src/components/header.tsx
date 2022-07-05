@@ -10,6 +10,7 @@ const Header = () => {
           h="5.82%" 
           justifyContent={['center','center','space-between','space-between']}
           direction={["column", "column", "row", "row"]}
+         
           
         >
        <Flex ml={["4%","4%","4%","4%"]} >

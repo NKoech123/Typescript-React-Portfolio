@@ -17,6 +17,7 @@ function PFIconButton({
     variant="ghost"
     icon={icon}
     size="lg"
+    fontSize='30px'
     onClick={onClick}
     aria-label={ariaLabel}
     color ="darkColor"
