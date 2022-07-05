@@ -3,7 +3,8 @@ import { Flex, Heading, HStack, Link, Box,Text} from "@chakra-ui/react";
 
 function Header() {
   return (
-    <Flex bg="#1A2C32"  width="100%" mx="8%" height="5.8%" mb="4.4%">
+    <Flex bg="#1A2C32"  width="100%" mx="8%" height="5.8%" mb="4.4%"> 
+
     <Flex mx="144px" 
     mt="50px"
     bg="#1A2C32"
@@ -28,7 +29,8 @@ function Header() {
             </HStack>
         </Flex>
     </Flex>
-    </Flex>
+
+  </Flex>
   )
 }
 

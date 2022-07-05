@@ -13,7 +13,7 @@ export const Intro = () => {
     <Flex w="100%" bg="#1A2C32" mx="8%"  mb="164px" height={789}>
    
        
-          <HStack spacing="650px" mt="311px">
+          <HStack spacing="650px" mt="311px">=
              
                 <VStack >
                     <Box ml="0px">
