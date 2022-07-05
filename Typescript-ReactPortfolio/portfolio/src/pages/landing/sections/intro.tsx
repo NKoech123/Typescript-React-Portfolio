@@ -10,13 +10,13 @@ import { SocialIcons } from '../../../components/socialIcons';
 export const Intro = () => {
   return (
 
-    <Flex w="100%" bg="#1A2C32" mx="8%"  mb="164px" height={789}>
+    <Flex mx="8%"  mb="14.68%" height='70.64%'>
    
        
           <HStack spacing="650px" mt="15px">=
              
                 <VStack >
-                    <Box ml="0px">
+                  
                     <Flex >
                       
                       <Text ><Keyword arrowIcon={VscTriangleRight}/>Python</Text>
@@ -26,11 +26,11 @@ export const Intro = () => {
                       <Text ><Keyword arrowIcon={VscTriangleRight}/>CSS</Text>
                    
                     </Flex>
-                    </Box>
+                 
                     
                     
                 <Box >
-                  <Text fontSize="90px" fontWeight="700" height="100px" ml="80px" mb="20px">Nicholas Koech</Text>
+                  <Text fontSize="60px" fontWeight="700" height="100px" ml="80px" mb="20px" whiteSpace='nowrap'>Nicholas Koech</Text>
                   <Text  fontSize="20px" fontWeight="300" height="24px" ml="80px" mb="20px">Software engineer</Text>
                 </Box>
                       <Box ml="90px">
