@@ -13,7 +13,7 @@ export const Intro = () => {
     <Flex mx="8%"  mb="14.68%" w ='83.33vw' h='70.64vh'>
    
        
-          <HStack spacing='37.33vw' alignItems='end' mb='17.46vh' mt='27.84vh'>
+          <HStack spacing='46.33vw' alignItems='end' mb='17.46vh' mt='27.84vh'>
              
                 <VStack alignItems= 'start' ml='4.63%' >
                   
