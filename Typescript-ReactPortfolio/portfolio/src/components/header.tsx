@@ -7,9 +7,11 @@ const Header = () => {
     <Flex mx="8.33%"
           mt="4.47%"
           mb="4.38%" 
-          h="5.82%" 
+          h={["20.82%" ,"20.82%" ,"5.82%" ,"5.82%" ]}
           justifyContent={['center','center','space-between','space-between']}
+          alignItems = {['center','center','space-between','space-between']}
           direction={["column", "column", "row", "row"]}
+          gap='2.5rem'
          
           
         >
@@ -17,7 +19,11 @@ const Header = () => {
           <Flex fontSize='30px' fontWeight='900'> N<Text fontWeight='400'>K.</Text></Flex>
        </Flex>
 
-      <Flex  direction={["column", "column", "row", "row"]}>
+      <Flex  direction={["column", "column", "row", "row"]} 
+             alignItems = {['center','center','space-between','space-between']}
+             gap= {['2.5rem','2.5rem','0rem','0rem']}
+             as='nav'
+             >
               <Flex fontSize='20px' 
                     fontWeight='600' 
                     my={['10px','0px','0px','0px']} 

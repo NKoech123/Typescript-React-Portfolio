@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex,Box, Heading, HStack, Link,Text, VStack } from "@chakra-ui/react";
+import { Flex, HStack,Text, VStack } from "@chakra-ui/react";
 
 import Keyword from '../../../components/keywords';
 import {VscTriangleRight} from "react-icons/vsc";
@@ -19,17 +19,17 @@ export const Intro = () => {
                   
                     <Flex  mt='15.42%' mb="1.34%">
                       
-                      <Text fontSize='15px'><Keyword arrowIcon={VscTriangleRight}/>Python</Text>
-                      <Text fontSize='15px'><Keyword arrowIcon={VscTriangleRight}/>Typescript</Text>
-                      <Text fontSize='15px'><Keyword arrowIcon={VscTriangleRight}/>SQL</Text>
-                      <Text fontSize='15px'><Keyword arrowIcon={VscTriangleRight}/>HTML</Text>
-                      <Text fontSize='15px'><Keyword arrowIcon={VscTriangleRight}/>CSS</Text>
+                      <Text fontSize={["4px","8px","10px","15px"]}><Keyword arrowIcon={VscTriangleRight}/>Python</Text>
+                      <Text fontSize={["4px","8px","10px","15px"]}><Keyword arrowIcon={VscTriangleRight}/>Typescript</Text>
+                      <Text fontSize={["4px","8px","10px","15px"]}><Keyword arrowIcon={VscTriangleRight}/>SQL</Text>
+                      <Text fontSize={["4px","8px","10px","15px"]}><Keyword arrowIcon={VscTriangleRight}/>HTML</Text>
+                      <Text fontSize={["4px","8px","10px","15px"]}><Keyword arrowIcon={VscTriangleRight}/>CSS</Text>
                    
                     </Flex>
                  
                     
                     <Flex direction='column' mt='0px'>
-                      <Text fontSize="60px" fontWeight="700" height="100px"   whiteSpace='nowrap'>Nicholas Koech</Text>
+                      <Text fontSize={["10px","30px","50px","60px"]} fontWeight="700"  whiteSpace='nowrap'>Nicholas Koech</Text>
                       <Text  fontSize="20px" fontWeight="300" height="24px"  mb="20px">Software engineer</Text>
                     </Flex>
                    
