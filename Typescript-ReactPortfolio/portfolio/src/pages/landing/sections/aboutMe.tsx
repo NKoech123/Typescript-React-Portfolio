@@ -15,7 +15,7 @@ export const AboutMe = () => {
                 </Flex>
 
                 <Flex>
-                    <Text fontWeight='800' fontSize='40px'>About Me <sub>01.</sub></Text>
+                    <Text whiteSpace='nowrap' fontWeight='800' mt='20px' fontSize={['20px','40px','60px','90px']}>About Me <sub>01.</sub></Text>
                 </Flex>
             </VStack>
 
