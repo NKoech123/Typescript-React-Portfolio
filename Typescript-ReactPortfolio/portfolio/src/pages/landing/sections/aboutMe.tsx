@@ -7,6 +7,7 @@ import Profile from '../../../assets/profile.jpg'
 
 export const AboutMe = () => {
   return (
+    <Flex h='100vh' w='100vw'>
     <Flex mx="8%" mt='5.32%' >
     <HStack alignContent='space-between'>
             <VStack>
@@ -54,10 +55,7 @@ export const AboutMe = () => {
     </HStack>
 
 
-
-
-
-
+    </Flex>
     </Flex>
    
   )
