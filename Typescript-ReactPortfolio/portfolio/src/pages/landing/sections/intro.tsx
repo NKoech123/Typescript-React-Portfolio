@@ -41,7 +41,7 @@ export const Intro = () => {
                               height: "47px",
                               borderRadius: "10px",
                               backgroundColor:"#EF855B"
-                              // fontSize: "20px",
+                             
                             }}
                             OnClick={() => {}}
                           >
@@ -68,10 +68,6 @@ export const Intro = () => {
               <SocialIcons/>
             </Flex>
           </HStack>
-        
-       
-  
-   
 
     </Flex>
     
