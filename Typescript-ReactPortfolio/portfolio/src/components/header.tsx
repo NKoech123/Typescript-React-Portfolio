@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex, Heading, HStack, Link, Box,Text} from "@chakra-ui/react";
+import { Flex,Text} from "@chakra-ui/react";
 
 const Header = () => {
   return (
@@ -8,7 +8,7 @@ const Header = () => {
           mt="4.47%"
           mb="4.38%" 
           h="5.82%" 
-          justifyContent={['center','space-around','space-between','space-between']}
+          justifyContent={['center','center','space-between','space-between']}
           direction={["column", "column", "row", "row"]}
           
         >
