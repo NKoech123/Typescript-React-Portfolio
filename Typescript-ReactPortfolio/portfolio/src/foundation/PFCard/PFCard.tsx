@@ -5,8 +5,8 @@ import { Image , Box} from '@chakra-ui/react'
 
 type PFCardProps = {
     img: string;
-    projectname: React.ReactNode;
-    paragraph: React.ReactNode;
+    projectname: React.ReactNode | string;
+    paragraph: React.ReactNode | string;
     githubicon?: React.ReactNode;
 
 }
