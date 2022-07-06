@@ -6,10 +6,10 @@ export const Projects = () => {
     <Flex h='100vh' w='100vw'>
         <VStack spacing={90}>
                 <Flex ml='5.73%'>
-                    <Text  fontWeight='800' fontSize={['20px','40px','60px','90px']}>Projects <sub>03.</sub></Text>
+                    <Text  fontWeight='800'  fontSize={['20px','40px','60px','90px']}>Projects <sub>03.</sub></Text>
                 </Flex>
 
-                <Flex direction={['column','row','row','row']} ml='5.73%' h='200px'>
+                <Flex direction={['column','column','row','row']} ml='5.73%' h='200px'>
                     <Flex w='400px' h='600'>
                         <PFCard
 
