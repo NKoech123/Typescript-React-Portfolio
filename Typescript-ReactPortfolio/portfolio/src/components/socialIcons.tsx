@@ -1,5 +1,5 @@
 import React from 'react'
-import {Flex, VStack} from "@chakra-ui/react";
+import {VStack} from "@chakra-ui/react";
 import PFIconButton from '../foundation/PFIconButton/PFIconButton';
 
 import {
