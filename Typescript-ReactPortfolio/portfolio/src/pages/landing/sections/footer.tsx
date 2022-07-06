@@ -14,7 +14,6 @@ export const Footer = () => {
                     <Text>Texts</Text>
                     <Text>Texts</Text>
                     <Text>Texts</Text>
-
                 </VStack>
 
                 <SocialIcons/>
