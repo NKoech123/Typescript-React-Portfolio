@@ -10,7 +10,7 @@ import {
 
 export const SocialIcons = () => {
   return (
-    <Flex  alignItems="flex-end" >
+    
             <VStack spacing="1px">
               <PFIconButton 
                 icon={<FaMedium/>}
@@ -31,7 +31,7 @@ export const SocialIcons = () => {
                     
             />
             </VStack>
-    </Flex>
+  
     
   )
 }

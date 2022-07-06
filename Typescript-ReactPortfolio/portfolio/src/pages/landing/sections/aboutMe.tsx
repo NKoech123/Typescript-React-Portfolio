@@ -1,7 +1,5 @@
 import { VStack,Image,Flex ,Text, HStack} from '@chakra-ui/react'
 import React from 'react'
-import Keyword from '../../../components/keywords';
-import {VscTriangleRight} from "react-icons/vsc";
 import Profile from '../../../assets/profile.jpg'
 
 
