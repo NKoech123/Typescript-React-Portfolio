@@ -3,7 +3,7 @@ import "@fontsource/heebo";
 
 const customTheme = extendTheme({
   colors: {
-    backgoundColor: "#1A2C32",
+    backgoundColor: "#121C20", 
     secondary_green: "#469E84",
     solidButtonColor: "#EF855B",
     outlineButtonColor: "#EF855B",
