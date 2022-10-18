@@ -12,17 +12,16 @@ export const Intro = () => {
 
     <Flex mx="8%"  mb="14.68%" w ='83.33vw' h='70.64vh'>
    
-       
           <HStack spacing='46.33vw' alignItems='end' mb='17.46vh' mt='27.84vh'>
              
                 <VStack alignItems= 'start' ml='4.63%' >
                   
                     <Flex  mt='15.42%' mb="1.34%">
                       
-                      <Text fontSize={["4px","8px","10px","15px"]}><Keyword arrowIcon={VscTriangleRight}/>Python</Text>
-                      <Text fontSize={["4px","8px","10px","15px"]}><Keyword arrowIcon={VscTriangleRight}/>Typescript</Text>
-                      <Text fontSize={["4px","8px","10px","15px"]}><Keyword arrowIcon={VscTriangleRight}/>SQL</Text>
-                      <Text fontSize={["4px","8px","10px","15px"]}><Keyword arrowIcon={VscTriangleRight}/>HTML</Text>
+                      <Text fontSize={["4px","8px","10px","15px"]} mr="20px"><Keyword arrowIcon={VscTriangleRight}/>Python</Text>
+                      <Text fontSize={["4px","8px","10px","15px"]} mr="20px"><Keyword arrowIcon={VscTriangleRight}/>Typescript</Text>
+                      <Text fontSize={["4px","8px","10px","15px"]} mr="20px"><Keyword arrowIcon={VscTriangleRight}/>SQL</Text>
+                      <Text fontSize={["4px","8px","10px","15px"]} mr="20px"><Keyword arrowIcon={VscTriangleRight}/>HTML</Text>
                       <Text fontSize={["4px","8px","10px","15px"]}><Keyword arrowIcon={VscTriangleRight}/>CSS</Text>
                    
                     </Flex>
@@ -65,7 +64,8 @@ export const Intro = () => {
                 </VStack>
               
             <Flex>
-              <SocialIcons/>
+              // add some
+              <SocialIcons/> 
             </Flex>
           </HStack>
 
