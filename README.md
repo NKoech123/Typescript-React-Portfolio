@@ -1,4 +1,4 @@
-# Typescript-ReactPortfoli
+# Typescript-ReactPortfolio
 
 
 This project was bootstrapped with
