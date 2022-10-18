@@ -1,11 +1,13 @@
 import React from 'react'
-import { Flex, HStack,Text, VStack } from "@chakra-ui/react";
+import { Flex, HStack,Text, VStack, Box } from "@chakra-ui/react";
 
 import Keyword from '../../../components/keywords';
 import {VscTriangleRight} from "react-icons/vsc";
 
 import PFButton from '../../../foundation/PFButton/PFButton';
 import { SocialIcons } from '../../../components/socialIcons';
+
+const languages  = ['Python', 'Typescript', 'SQL', 'HTML', 'CSS'];
 
 export const Intro = () => {
   return (
@@ -17,22 +19,26 @@ export const Intro = () => {
                 <VStack alignItems= 'start' ml='4.63%' >
                   
                     <Flex  mt='15.42%' mb="1.34%">
+                    
+                      {languages.map((language) => (
+                        <ul>
+                      <Box fontSize={["4px","8px","10px","15px"]} mr="20px">
+                          <Box display='flex'>
+                            <Keyword arrowIcon={VscTriangleRight}/> <Text color="lightGreen">{language}</Text>
+                          </Box>
+                      </Box>
+                        </ul>
+                        ))}
                       
-                      <Text fontSize={["4px","8px","10px","15px"]} mr="20px"><Keyword arrowIcon={VscTriangleRight}/>Python</Text>
-                      <Text fontSize={["4px","8px","10px","15px"]} mr="20px"><Keyword arrowIcon={VscTriangleRight}/>Typescript</Text>
-                      <Text fontSize={["4px","8px","10px","15px"]} mr="20px"><Keyword arrowIcon={VscTriangleRight}/>SQL</Text>
-                      <Text fontSize={["4px","8px","10px","15px"]} mr="20px"><Keyword arrowIcon={VscTriangleRight}/>HTML</Text>
-                      <Text fontSize={["4px","8px","10px","15px"]}><Keyword arrowIcon={VscTriangleRight}/>CSS</Text>
-                   
                     </Flex>
                  
                     
                     <Flex direction='column' mt='0px'>
-                      <Text fontSize={["10px","30px","50px","60px"]} fontWeight="700"  whiteSpace='nowrap'>Nicholas Koech</Text>
-                      <Text  fontSize="20px" fontWeight="300" height="24px"  mb="20px">Software engineer</Text>
+                      <Text fontSize={["10px","30px","50px","60px"]} fontWeight="700"  whiteSpace='nowrap' color="whiteColor">Nicholas Koech</Text>
+                      <Text  fontSize="20px" fontWeight="300" height="24px"  mb="20px" color="whiteColor">Software engineer</Text>
                     </Flex>
                    
-                    <Flex direction='row' gap='20px' alignItems='center' mb='17.46%'>
+                    <Flex direction={['column', 'column', 'row', 'row']} gap='20px' alignItems='center' mb='17.46%'>
                       <PFButton
                             variant = "solid"
                             stylesProps={{
@@ -64,7 +70,6 @@ export const Intro = () => {
                 </VStack>
               
             <Flex>
-              // add some
               <SocialIcons/> 
             </Flex>
           </HStack>

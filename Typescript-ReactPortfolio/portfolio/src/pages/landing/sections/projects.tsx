@@ -7,7 +7,7 @@ export const Projects = () => {
       
         <Flex direction='column'>
                 <Flex  mb= '20px' justifyContent='start' ml='60px'>
-                    <Text  fontWeight='800'  fontSize={['20px','40px','60px','90px']}>Projects <sub>03.</sub></Text>
+                    <Text  fontWeight='800'  fontSize={['20px','40px','60px','90px']} color="whiteColor">Projects <sub>03.</sub></Text>
                 </Flex>
 
                 <Flex direction={['column','column','row','row']} ml='5.73%' h='54.34%' mb='5.73'>
