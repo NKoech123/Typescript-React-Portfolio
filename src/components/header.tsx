@@ -14,7 +14,7 @@ const Header = () => {
           gap='2.5rem'
         >
        <Flex ml={["4%","4%","4%","4%"]} >
-          <Flex fontSize='30px' fontWeight='900'> N<Text fontWeight='400'>K.</Text></Flex>
+          <Flex fontSize='30px' fontWeight='900' color={"whiteColor"}> N<Text fontWeight='400' color={"whiteColor"}>K.</Text></Flex>
        </Flex>
 
       <Flex  direction={["column", "column", "row", "row"]} 
@@ -25,6 +25,7 @@ const Header = () => {
               <Flex fontSize='20px' 
                     fontWeight='600' 
                     my={['10px','0px','0px','0px']} 
+                    color={"whiteColor"}
                     >
                       Projects
               </Flex>
@@ -32,6 +33,7 @@ const Header = () => {
                     fontWeight='600' 
                     ml={['0px','80px','80px','80px']} 
                     my={['10px','0px','0px','0px']}
+                    color={"whiteColor"}
                   >
                     Contact
               </Flex>

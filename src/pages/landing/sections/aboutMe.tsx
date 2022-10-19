@@ -1,6 +1,6 @@
-import { VStack,Image,Flex ,Text, HStack} from '@chakra-ui/react'
-import React from 'react'
-import Profile from '../../../assets/profile.jpg'
+import { VStack,Image,Flex ,Text, HStack} from '@chakra-ui/react';
+import React from 'react';
+import Profile from '../../../assets/profile.jpg';
 
 
 export const AboutMe = () => {
