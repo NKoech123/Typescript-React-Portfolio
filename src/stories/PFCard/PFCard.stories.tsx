@@ -3,8 +3,8 @@ import React from 'react';
 import PFCard from '../../foundation/PFCard/PFCard'; 
 
 
-import {HeadingProject1, HeadingProject2, HeadingProject3} from  '../../stories/PFHeading/PFHeading.stories';           
-import {ParagraphProject1, ParagraphProject2, ParagraphProject3} from '../../stories/PFParagraph/PFParagraph.stories'; 
+import {HeadingProject1, HeadingProject2, HeadingProject3} from  '../PFHeading/PFHeading.stories';           
+import {ParagraphProject1, ParagraphProject2, ParagraphProject3} from '../PFParagraph/PFParagraph.stories'; 
 
 
 export default {

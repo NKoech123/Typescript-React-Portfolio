@@ -1,7 +1,7 @@
 import React from 'react'
-import PFCard from '../../../foundation/PFCard/PFCard'
+import PFCard from '../../../foundation/PFCard/PFCard';
 import {Flex, Text, Box, HStack} from '@chakra-ui/react'
-import ProjectCard from '../../../components/ProjectCard';
+import ProjectCard from '../../../components/projectCard';
 export const Projects = () => {
   return (
     <Box>
