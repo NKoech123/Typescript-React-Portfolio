@@ -29,8 +29,6 @@ const customTheme = extendTheme({
         },
         outline: {
           color: "outlineButtonColor",
-         
-         
         },
         navBar: {
           fontSize: "18px",
