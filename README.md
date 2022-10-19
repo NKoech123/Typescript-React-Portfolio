@@ -1,8 +1,8 @@
 # Typescript-ReactPortfolio
 
-This project was bootstrapped with
-[Create React App](https://github.com/facebook/create-react-app)
-[Chakra UI](https://chakra-ui.com).
+This project was bootstrapped with:
+- [Create React App](https://github.com/facebook/create-react-app)
+- [Chakra UI](https://chakra-ui.com).
 
 ## Available Scripts
 
