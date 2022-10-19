@@ -2,7 +2,7 @@ import React from 'react'
 import { Flex, Text, VStack} from '@chakra-ui/react'
 export const Experience = () => {
   return (
-    <Flex h='100vh' w='100vw'>
+    <Flex h='100vh' w='100vw' alignItems="end">
     <Flex w='83.33%' h='70.28%' px='8.33%' direction='row'>
         <VStack>
             <Flex direction={['column','column','row','row']} mt='18.8%' ml='4.57%' mr='2.31%' mb='11.10%' justifyContent='center'>
@@ -12,7 +12,7 @@ export const Experience = () => {
             </Flex>
 
             <Flex mr='40px'>
-            <Text  fontWeight='800'   fontSize={['20px','40px','60px','90px']}>Experience <sub>02.</sub></Text>
+            <Text  fontWeight='800'   fontSize={['20px','40px','60px','90px']} color="whiteColor">Experience <sub>02.</sub></Text>
             </Flex>
 
         </VStack>

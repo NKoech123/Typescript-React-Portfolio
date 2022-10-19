@@ -13,7 +13,6 @@ function Landing() {
         <Experience/>
         <Projects/>
         <Footer/>
-
     </Box>
     
   )
