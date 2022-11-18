@@ -1,11 +1,14 @@
 import React from 'react'
 import {Text,Flex, HStack} from '@chakra-ui/react'
 import { SocialIcons } from '../../../components/socialIcons';
-
+//mt='14.68%'
 export const Footer = () => {
   return (
 
-        <HStack   mx='8.33%' mt='14.68%' mb='8%'  justifyContent='center' alignContent='space between' >
+        <HStack  
+         mx='8.33%'  mb='8%'  justifyContent='center' alignContent='space between' 
+         w ='83.33vw' h='83.53vh' ml='8.33%' mt='8.23%'
+         >
 
             <Flex direction='column' mb='12px'>
                 <Text textAlign='center'    color="rgba(70, 158, 132, 1)">What now?</Text>

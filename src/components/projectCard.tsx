@@ -10,13 +10,17 @@ const ProjectCard = () => {
   }
 
   return (
-    <Flex p={10}>
-        <Box maxWidth={500} maxHeight={800} ml={10}>
+    <Flex mr='5px'>
+        <Box maxWidth={500} maxHeight={800}>
             <Image src={property.imageUrl} alt={property.imageAlt}  />
 
-            <Box>
-                <Text mt ={5} color={"whiteColor"}>{property.name}</Text>
-                <Text color={"whiteColor"}>{property.description}</Text>
+            <Box mt='5px'>
+                <Text color={"whiteColor"} fontWeight='bold'>
+                  {property.name}
+                </Text>
+                <Text color={"whiteColor"}>
+                  {property.description}
+                </Text>
             </Box>
 
         </Box>
