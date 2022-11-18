@@ -19,17 +19,15 @@ export const Intro = () => {
                 <VStack alignItems= 'start' ml='4.63%' >
                   
                     <Flex  mt='15.42%' mb="1.34%">
-                    
                       {languages.map((language) => (
-                        <ul>
-                      <Box fontSize={["4px","8px","10px","15px"]} mr="20px">
-                          <Box display='flex'>
-                            <Keyword arrowIcon={VscTriangleRight}/> <Text color="lightGreen">{language}</Text>
-                          </Box>
-                      </Box>
-                        </ul>
+                      <ul>
+                        <Box fontSize={["4px","8px","10px","15px"]} mr="20px">
+                            <Box display='flex'>
+                              <Keyword arrowIcon={VscTriangleRight}/> <Text color="lightGreen">{language}</Text>
+                            </Box>
+                        </Box>
+                      </ul>
                         ))}
-                      
                     </Flex>
                  
                     
