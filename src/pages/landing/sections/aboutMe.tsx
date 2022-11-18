@@ -6,7 +6,7 @@ import Profile from '../../../assets/profile.jpg';
 export const AboutMe = () => {
   return (
   
-    <Flex  w ='83.33vw' h='83.53vh' ml='8.33%' mt='8.23%'>
+    <Flex  w ='83.33vw' ml='8.33%' mt='8.23%'>
     <VStack alignItems='flex-start'>
 
     <HStack alignContent='space-between' flexDirection={
@@ -30,7 +30,7 @@ export const AboutMe = () => {
           <Text mt='10px' color="whiteColor">
             Here are a few skills I have leveraged on those projects
           </Text>
-          
+
       </Flex>
 
     </HStack>

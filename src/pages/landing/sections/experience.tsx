@@ -7,14 +7,13 @@ export const Experience = () => {
     <Flex  alignItems="center"
      direction={["column", "row", "row", "row"]}
      w ='83.33vw' h='83.53vh' ml='8.33%' mt='8.23%'
-  
     >
     <VStack alignItems='end'>
-      <HStack>
+      <Flex flexDirection={["column", "column", "row", "row"]}>
         <ExperienceCard/>
         <ExperienceCard/>
         <ExperienceCard/>
-      </HStack>
+      </Flex>
       <Divider orientation='horizontal' borderWidth='3px' fontWeight={'bold'}/>
    
       <Text whiteSpace='nowrap' fontWeight='800' mt='20px' fontSize={['20px','40px','60px','80px']} color="whiteColor">

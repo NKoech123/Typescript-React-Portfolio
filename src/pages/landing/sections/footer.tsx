@@ -11,8 +11,8 @@ export const Footer = () => {
          >
 
             <Flex direction='column' mb='12px'>
-                <Text textAlign='center'    color="rgba(70, 158, 132, 1)">What now?</Text>
-                <Text fontSize='90px' fontWeight='700' color="whiteColor">Get in touch</Text>
+                <Text textAlign='center' color="rgba(70, 158, 132, 1)">What now?</Text>
+                <Text textAlign='center' fontSize={['20px','30px','60px','90px']} fontWeight='700' color="whiteColor">Get in touch</Text>
                 <Text textAlign='start' mb='20px' color="whiteColor">
                     My name is Nicholas and I enjoy solving problems. <br/> 
                     My interest in coding started back in 2017 when I <br/> 
