@@ -1,7 +1,7 @@
 import React from 'react'
 import {Text,Flex, HStack} from '@chakra-ui/react'
 import { SocialIcons } from '../../../components/socialIcons';
-//mt='14.68%'
+
 export const Footer = () => {
   return (
 

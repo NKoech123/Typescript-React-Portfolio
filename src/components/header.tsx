@@ -1,9 +1,9 @@
-import React from 'react'
+import React from 'react';
 import { Flex,Text} from "@chakra-ui/react";
+import { Link as ChakraLink } from '@chakra-ui/react';
 
 const Header = () => {
   return (
-
     <Flex mx="8.33%"
           mt="4.47%"
           mb="4.38%" 
@@ -14,7 +14,13 @@ const Header = () => {
           gap='2.5rem'
         >
        <Flex ml={["4%","4%","4%","4%"]} >
-          <Flex fontSize='30px' fontWeight='900' color={"whiteColor"}> N<Text fontWeight='400' color={"whiteColor"}>K.</Text></Flex>
+          <Flex 
+          fontSize='30px' fontWeight='900' color={"whiteColor"}
+          >
+          <ChakraLink href="/">
+            <Text fontWeight='400' color={"whiteColor"}>NK.</Text>
+          </ChakraLink>
+           </Flex>
        </Flex>
 
       <Flex  direction={["column", "column", "row", "row"]} 
@@ -26,8 +32,10 @@ const Header = () => {
                     fontWeight='600' 
                     my={['10px','0px','0px','0px']} 
                     color={"whiteColor"}
-                    >
-                      Projects
+              >
+                <ChakraLink href="/about">
+                      About
+                </ChakraLink>
               </Flex>
               <Flex fontSize='20px' 
                     fontWeight='600' 
@@ -35,13 +43,23 @@ const Header = () => {
                     my={['10px','0px','0px','0px']}
                     color={"whiteColor"}
                   >
-                    Contact
+                <ChakraLink href="/projects">
+                      Projects
+                </ChakraLink>
+              </Flex>
+              <Flex fontSize='20px' 
+                    fontWeight='600' 
+                    ml={['0px','80px','80px','80px']} 
+                    my={['10px','0px','0px','0px']}
+                    color={"whiteColor"}
+                  >
+                <ChakraLink href="/contact">
+                      Contact
+                </ChakraLink>
               </Flex>
       </Flex>
        
     </Flex>
-
-   
   )
 }
 

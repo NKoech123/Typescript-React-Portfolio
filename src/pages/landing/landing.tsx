@@ -5,11 +5,19 @@ import { Experience } from './sections/experience';
 import {Box} from "@chakra-ui/react";
 import {Projects} from './sections/projects'
 import {Footer} from './sections/footer'
+import {
+  BrowserRouter as Router,
+  Route,
+  Link as RouteLink
+} from "react-router-dom";
+
 function Landing() {
   return (
     <Box>
         <Intro/>
+       
         <AboutMe/>
+       
         <Experience/>
         <Projects/>
         <Footer/>
