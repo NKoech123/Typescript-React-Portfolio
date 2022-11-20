@@ -11,12 +11,10 @@ import {
 } from "react-router-dom";
 
 import Header from '../src/components/header';
-import Headermobile from "./components/headermobile";
 import { AboutMe } from "./pages/landing/sections/aboutMe";
 import { Intro } from "./pages/landing/sections/intro";
 import { Footer } from "./pages/landing/sections/footer";
 import { Projects } from "./pages/landing/sections/projects";
-import Landing from "./pages/landing/landing";
 
 
 import customTheme from "../src/theme";

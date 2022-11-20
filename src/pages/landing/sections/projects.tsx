@@ -9,7 +9,7 @@ export const Projects = () => {
     >
       <VStack alignItems='start'>
         <Box  mb= '20px' justifyContent='start' >
-            <Text  fontWeight='800'  fontSize={['20px','40px','60px','90px']} color="whiteColor" mt={20}>Projects <sub>03.</sub></Text>
+            <Text  fontWeight='800'  fontSize={['20px','40px','60px','90px']} color="whiteColor" >Projects <sub>03.</sub></Text>
         </Box>
         <Flex mt='50px' flexDirection={["column", "column", "row", "row"]}
         >

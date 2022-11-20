@@ -7,7 +7,7 @@ export const Footer = () => {
 
         <HStack  
          mx='8.33%'  mb='8%'  justifyContent='center' alignContent='space between' 
-         w ='83.33vw' h='83.53vh' ml='8.33%' mt='8.23%'
+         w ='83.33vw' ml='8.33%' mt='8.23%'
          >
 
             <Flex direction='column' mb='12px'>
