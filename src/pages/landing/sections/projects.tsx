@@ -1,7 +1,7 @@
 import React from 'react'
 import PFCard from '../../../foundation/PFCard/PFCard';
 import {Flex, Text, Box, HStack, VStack} from '@chakra-ui/react'
-import ProjectCard from '../../../components/projectCard';
+import ProjectCard from '../../../components/ProjectCard';
 export const Projects = () => {
   return (
     <Flex  w ='83.33vw'  ml='8.33%' mt='8.23%'

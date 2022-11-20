@@ -10,11 +10,12 @@ import {
   Link as RouteLink
 } from "react-router-dom";
 
-import Header from '../src/components/header';
-import { AboutMe } from "./pages/landing/sections/aboutMe";
-import { Intro } from "./pages/landing/sections/intro";
-import { Footer } from "./pages/landing/sections/footer";
-import { Projects } from "./pages/landing/sections/projects";
+import Header from './components/Header';
+import { AboutMe } from "./pages/landing/sections/AboutMe";
+import { Intro } from "./pages/landing/sections/Intro";
+import { Footer } from "./pages/landing/sections/Footer";
+import { Projects } from "./pages/landing/sections/Projects";
+import { Experience } from "./pages/landing/sections/Experience";
 
 
 import customTheme from "../src/theme";
@@ -27,6 +28,7 @@ export const App = () => (
         <Route path='/about' element={ <AboutMe/>}/>
         <Route path='/projects' element={ <Projects/>}/>
         <Route path='/contact' element={ <Footer/>}/>
+        <Route path='/experience' element={ <Experience/>}/>
       </Routes>
   </ChakraProvider>
 )

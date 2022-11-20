@@ -1,6 +1,7 @@
 import React from 'react'
 import { Flex, HStack, Text, VStack, Divider} from '@chakra-ui/react';
 import ExperienceCard from '../../../components/ExperienceCard';
+
 export const Experience = () => {
   return (
 

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Text,Flex, HStack} from '@chakra-ui/react'
-import { SocialIcons } from '../../../components/socialIcons';
+import { SocialIcons } from '../../../components/SocialIcons';
 
 export const Footer = () => {
   return (

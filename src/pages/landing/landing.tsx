@@ -1,10 +1,10 @@
 import React from 'react'
-import { Intro } from "./sections/intro";
-import { AboutMe } from './sections/aboutMe';
-import { Experience } from './sections/experience';
+import { Intro } from "./sections/Intro";
+import { AboutMe } from './sections/AboutMe';
+import { Experience } from './sections/Experience';
 import {Box} from "@chakra-ui/react";
-import {Projects} from './sections/projects'
-import {Footer} from './sections/footer'
+import {Projects} from './sections/Projects'
+import {Footer} from './sections/Footer'
 import {
   BrowserRouter as Router,
   Route,
@@ -15,9 +15,7 @@ function Landing() {
   return (
     <Box>
         <Intro/>
-       
         <AboutMe/>
-       
         <Experience/>
         <Projects/>
         <Footer/>

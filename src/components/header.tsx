@@ -1,62 +1,51 @@
 import React from 'react';
 import { Flex,Text} from "@chakra-ui/react";
-import { Link as ChakraLink } from '@chakra-ui/react';
+import { Link as ChakraLink, Box } from '@chakra-ui/react';
 
 const Header = () => {
   return (
     <Flex mx="8.33%"
           mt="4.47%"
           mb="4.38%" 
-          h={["20.82%" ,"20.82%" ,"5.82%" ,"5.82%" ]}
           justifyContent={['center','center','space-between','space-between']}
           alignItems = {['center','center','space-between','space-between']}
           direction={["column", "column", "row", "row"]}
           gap='2.5rem'
         >
-       <Flex ml={["4%","4%","4%","4%"]} >
-          <Flex 
-          fontSize='30px' fontWeight='900' color={"whiteColor"}
-          >
+       <Box>
           <ChakraLink href="/">
-            <Text fontWeight='400' color={"whiteColor"}>NK.</Text>
+            <Text fontWeight='900'  fontSize='30px' color={"whiteColor"}>NK.</Text>
           </ChakraLink>
-           </Flex>
-       </Flex>
+       </Box>
 
       <Flex  direction={["column", "column", "row", "row"]} 
              alignItems = {['center','center','space-between','space-between']}
              gap= {['2.5rem','2.5rem','0rem','0rem']}
              as='nav'
              >
-              <Flex fontSize='20px' 
-                    fontWeight='600' 
-                    my={['10px','0px','0px','0px']} 
-                    color={"whiteColor"}
-              >
+              <Box mr={['0px','80px','80px','80px']}>
                 <ChakraLink href="/about">
-                      About
+                   <Text fontWeight='600'  fontSize='20px' color={"whiteColor"}>About</Text>
                 </ChakraLink>
-              </Flex>
-              <Flex fontSize='20px' 
-                    fontWeight='600' 
-                    ml={['0px','80px','80px','80px']} 
-                    my={['10px','0px','0px','0px']}
-                    color={"whiteColor"}
-                  >
+              </Box>
+
+              <Box mr={['0px','80px','80px','80px']}>
+                <ChakraLink href="/experience">
+                  <Text fontWeight='600'  fontSize='20px' color={"whiteColor"}>Experience</Text>
+                </ChakraLink>
+              </Box>
+
+              <Box  mr={['0px','80px','80px','80px']}>
                 <ChakraLink href="/projects">
-                      Projects
+                    <Text fontWeight='600'  fontSize='20px' color={"whiteColor"}>Projects</Text>
                 </ChakraLink>
-              </Flex>
-              <Flex fontSize='20px' 
-                    fontWeight='600' 
-                    ml={['0px','80px','80px','80px']} 
-                    my={['10px','0px','0px','0px']}
-                    color={"whiteColor"}
-                  >
+              </Box>
+
+              <Box>
                 <ChakraLink href="/contact">
-                      Contact
+                  <Text fontWeight='600'  fontSize='20px' color={"whiteColor"}>Contact</Text>
                 </ChakraLink>
-              </Flex>
+              </Box>
       </Flex>
        
     </Flex>
