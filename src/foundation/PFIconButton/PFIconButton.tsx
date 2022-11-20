@@ -1,5 +1,5 @@
 import React from 'react';
-import { IconButton } from '@chakra-ui/react'
+import { IconButton } from '@chakra-ui/react';
 
 
 type PFIconButtonProps = {
@@ -8,23 +8,18 @@ type PFIconButtonProps = {
     onClick?: any;
   };
 
-function PFIconButton({
-    icon,
-    ariaLabel,
-    onClick}:PFIconButtonProps) {
+const PFIconButton = (props: PFIconButtonProps) => {
   return (
     <IconButton
     variant="ghost"
-    icon={icon}
+    icon={props.icon}
     size="lg"
-    fontSize='30px'
-    onClick={onClick}
-    aria-label={ariaLabel}
-    color ="darkColor"
+    fontSize='40px'
+    onClick={props.onClick}
+    aria-label={props.ariaLabel}
+    color ="white"
     
-    
-
-    />
+  />
   );
 }
 

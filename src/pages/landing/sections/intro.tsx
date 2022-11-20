@@ -12,13 +12,18 @@ const languages  = ['Python', 'Typescript', 'SQL', 'HTML', 'CSS'];
 export const Intro = () => {
   return (
 
-    <Flex mx="8%"  mb="14.68%" w ='83.33vw' h='70.64vh'>
+    <Flex mx="8%"  mb="14.68%"  h='70.64vh'>
    
-          <HStack spacing='46.33vw' alignItems='end' mb='17.46vh' mt='27.84vh'>
+          <Flex  
+          direction='row' 
+          justifyContent='space-between'
+          mb='17.46vh' 
+          mt='20%'
+          >
              
                 <VStack alignItems= 'start' ml='4.63%' >
                   
-                    <Flex  mt='15.42%' mb="1.34%">
+                    <Flex  mb="1.34%">
                       {languages.map((language) => (
                       <ul>
                         <Box fontSize={["4px","8px","10px","15px"]} mr="20px">
@@ -67,10 +72,10 @@ export const Intro = () => {
 
                 </VStack>
               
-            <Flex>
+            <Flex  ml='100%'>
               <SocialIcons/> 
             </Flex>
-          </HStack>
+          </Flex>
 
     </Flex>
     

@@ -12,14 +12,15 @@ import {
 export const SocialIcons = () => {
   return (
     
-        <VStack spacing="1px">
+        <VStack spacing={10}>
               <PFIconButton icon={<FaMedium/>}
                 ariaLabel = "medium icon"
                 onClick={()=>{}}
               />
+
               <PFIconButton icon={<FaLinkedin/>}
-              ariaLabel = "Linkedin icon"
-              onClick={()=>{}}
+                ariaLabel = "Linkedin icon"
+                onClick={()=>{}}
               />
 
               <PFIconButton icon={<FaGithub/>}
