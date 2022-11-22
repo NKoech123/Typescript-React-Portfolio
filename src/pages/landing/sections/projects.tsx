@@ -1,6 +1,6 @@
 import {Flex, Text, Box, VStack} from '@chakra-ui/react'
 import ProjectCard from '../../../components/ProjectCard';
-
+import { projectData } from '../../../Data/Data';
 
 export const Projects = () => {
   return (
@@ -25,9 +25,13 @@ export const Projects = () => {
           justifyContent='space-between'
           flexDirection={["column", "column", "row", "row"]}
         >
-          <ProjectCard/>
-          <ProjectCard/>
-          <ProjectCard/>
+          {
+            projectData.map((children) => (
+              <ProjectCard
+                {...children}
+              />
+            ))
+          }
         </Flex>
         </VStack>
   </Flex>
