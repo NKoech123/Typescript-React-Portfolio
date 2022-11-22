@@ -18,9 +18,6 @@ export default function PFButton({
 }: PFButtonType) {
   return (
     <Button variant={variant} sx={stylesProps} onClick={OnClick}
-    // _hover={{
-    //   background: "green.200",
-    // }}
     _hover={_hover}
     >
       {children}{" "}

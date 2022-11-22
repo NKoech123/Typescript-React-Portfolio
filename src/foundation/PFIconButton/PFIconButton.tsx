@@ -6,6 +6,7 @@ type PFIconButtonProps = {
     icon: React.ReactElement;
     ariaLabel: string;
     onClick?: any;
+    _hover?: any
   };
 
 const PFIconButton = (props: PFIconButtonProps) => {
