@@ -3,7 +3,13 @@ import {Text,Flex, HStack} from '@chakra-ui/react'
 import { SocialIcons } from '../../../components/SocialIcons';
 import PFButton from '../../../foundation/PFButton/PFButton';
 
+
 export const Footer = () => {
+    const externalRouteChange = () =>{ 
+        let url = `https://www.linkedin.com/in/nicholas-koech-74990010a/`; 
+        window.open(url, '_blank')
+}
+
   return (
 
         <Flex 
@@ -75,7 +81,8 @@ export const Footer = () => {
                         borderColor:"#EF855B",
                         color: "#EF855B"
                     }}
-                    OnClick={() => {}}
+            
+                    OnClick={externalRouteChange}
                 >
                 Say hello!
                 </PFButton>
