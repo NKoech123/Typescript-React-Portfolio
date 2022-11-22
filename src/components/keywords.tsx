@@ -4,12 +4,13 @@ import { IconType } from 'react-icons/lib';
 
 type keywordProps = {
     arrowIcon: IconType;
+    color: string;
 }
 
-function Keyword({arrowIcon}:keywordProps) {
+function Keyword({arrowIcon, color}:keywordProps) {
   return (
     <Flex justifyItems='center' justifyContent='center'>
-       <Icon  as={arrowIcon} color="lightGreen"/> 
+       <Icon  as={arrowIcon} color={color}/> 
     </Flex>
   )
 }

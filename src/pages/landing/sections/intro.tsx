@@ -28,7 +28,7 @@ export const Intro = () => {
                     {languages.map((language) => (
                     <ul>
                       <Flex fontSize={["10px","8px","10px","20px"]} mr="20px" alignItems='center'>
-                        <Keyword arrowIcon={VscTriangleRight}/> <Text color="lightGreen">{language}</Text>
+                        <Keyword arrowIcon={VscTriangleRight} color={"lightgreen"}/> <Text color="lightGreen">{language}</Text>
                       </Flex>
                     </ul>
                       ))}

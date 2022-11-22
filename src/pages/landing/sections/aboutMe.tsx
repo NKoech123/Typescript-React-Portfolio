@@ -1,13 +1,33 @@
-import { VStack,Image,Flex ,Text, HStack} from '@chakra-ui/react';
-import React from 'react';
+import { VStack,Image,Flex, Box ,Text, HStack} from '@chakra-ui/react';
 import { Container, chakra, shouldForwardProp } from '@chakra-ui/react';
 import Profile from '../../../assets/profile.jpg';
 import { motion, isValidMotionProp } from 'framer-motion';
+import Keyword from '../../../components/Keywords';
+import {VscTriangleRight} from "react-icons/vsc";
+
+interface Skills{
+  id: number;
+  name: string;
+  list: string[];
+}
+
+const skills: Skills[] = [
+  { id: 1,
+    name: 'Backend',
+    list : ['Database Design', 'Data Migration', 'API Design'],
+  },
+  { id: 2,
+    name: 'Frontend',
+    list : ['React', 'JavaScript', 'HTML', 'CSS'],
+  },
+  { id: 3,
+    name: 'Testing',
+    list : ['Cypress', 'Pytest', 'Mocha/Chai'],
+  }
+]
 
 const ChakraBox = chakra(motion.div, {
-  /**
-   * Allow motion props and non-Chakra props to be forwarded.
-   */
+  // Allow motion props and non-Chakra props to be forwarded.
   shouldForwardProp: (prop) => isValidMotionProp(prop) || shouldForwardProp(prop),
 });
 
@@ -39,16 +59,15 @@ export const AboutMe = () => {
               display="flex"
               justifyContent="center"
               alignItems="center"
-            
             >
               <Image borderRadius ='16rem' height= '90%' width='100%' src={Profile} alt='Nicholas Koech' style={{ filter:  "grayscale(900)" }} />
             </ChakraBox>
       </Container>
 
-      <Flex display='flex' ml='20px' w='60.40%' h='45.75%' direction='column'> 
+      <Flex  ml='20px' w='60.40%' h='45.75%' direction='column'> 
           <Text color="whiteColor">
             Hello! My name is Nicholas and I enjoy solving problems.
-            My interest in coding started back in 2017 when I took <span color='green'>CS61A</span> — which 
+            My interest in coding started back in 2017 when I took <Text as="span" color='green'>CS61A</Text> — which 
             introduced me to programing in python!
             Fast-forward to today, and I’ve had the privilege of working at a construction company,
             and student-led projects. My main focus these days is contributing to open source projects 
@@ -58,13 +77,31 @@ export const AboutMe = () => {
           <Text mt='10px' color="whiteColor">
             Here are a few skills I have leveraged on those projects
           </Text>
+          <Box display={['none','flex','flex','flex']} fontSize={["10px","8px","10px","15px"]} mr="20px" alignItems='start' mt='20px'>
+
+         { skills.map((skill) => (
+              <Flex direction='column' mr='20px'>
+                  <Box display='flex' alignItems='center' mr='40px'>
+                    <Keyword  arrowIcon={VscTriangleRight} color={'#EF855B'} /><Text color='#EF855B'>{skill.name}</Text>
+                  </Box>
+                  <Box display='column'>
+                  { skill.list.map((lst) => (
+                      <Text ml='15px' mb='15px' color='#EF855B'> <Text as='span' fontWeight='bold'> | </Text>
+                          {lst}
+                      </Text>
+                    ))
+                    }
+                  </Box>
+              </Flex>
+              ))}
+          </Box>
       </Flex>
 
     </HStack>
     <Flex>
-      <Text whiteSpace='nowrap' fontWeight='800' mt='20px' fontSize={['20px','40px','60px','80px']} color="whiteColor">About Me <sub>02.</sub></Text>
+      <Text whiteSpace='nowrap' fontWeight='800' mt='20px' fontSize={['20px','40px','60px','60px']} color="whiteColor">About Me <sub>02.</sub></Text>
     </Flex>
-    
+
     </VStack>
 
 
