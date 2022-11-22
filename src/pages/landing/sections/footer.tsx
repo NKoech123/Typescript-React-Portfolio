@@ -3,7 +3,6 @@ import {Text,Flex, HStack} from '@chakra-ui/react'
 import { SocialIcons } from '../../../components/SocialIcons';
 import PFButton from '../../../foundation/PFButton/PFButton';
 
-
 export const Footer = () => {
     const externalRouteChange = () =>{ 
         let url = `https://www.linkedin.com/in/nicholas-koech-74990010a/`; 

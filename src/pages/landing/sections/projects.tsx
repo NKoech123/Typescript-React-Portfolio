@@ -4,9 +4,9 @@ import ProjectCard from '../../../components/ProjectCard';
 
 export const Projects = () => {
   return (
-    <Flex  w ='83.33vw'  
+  <Flex  w ='83.33vw'  
     ml='8.33%' 
-    mt='8.23%'
+    mt='1.23%'
     mb='2px'
     flexDir='column'
     >
@@ -22,6 +22,7 @@ export const Projects = () => {
         </Box>
         <Flex
           mt='50px' 
+          justifyContent='space-between'
           flexDirection={["column", "column", "row", "row"]}
         >
           <ProjectCard/>
@@ -29,7 +30,7 @@ export const Projects = () => {
           <ProjectCard/>
         </Flex>
         </VStack>
-    </Flex>
+  </Flex>
   )}
       
        
