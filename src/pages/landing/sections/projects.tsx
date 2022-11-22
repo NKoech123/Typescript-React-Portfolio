@@ -11,7 +11,7 @@ export const Projects = () => {
     flexDir='column'
     >
       <VStack alignItems='start'>
-        <Box  mb= '20px' justifyContent='start' >
+        <Box  mb= '20px' justifyContent='start' pl='15px'>
             <Text  
                fontWeight='800'  
                fontSize={['20px','40px','60px','60px']} 
