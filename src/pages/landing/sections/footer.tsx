@@ -6,11 +6,10 @@ import PFButton from '../../../foundation/PFButton/PFButton';
 export const Footer = () => {
   return (
 
-        <HStack  
-         mx='8.33%'  mb='8%'  justifyContent='center' alignContent='space between' 
+        <Flex 
+         mx='8.33%'  mb='8%'  justifyContent='center' alignItems='center' 
          w ='83.33vw' ml='8.33%' mt='8.23%'
          >
-
             <Flex direction='column' mb='12px'>
                 <Text textAlign='center' color="rgba(70, 158, 132, 1)">What now?</Text>
                 <Text textAlign='center' fontSize={['20px','30px','60px','90px']} fontWeight='700' color="whiteColor">Get in touch</Text>
@@ -21,7 +20,7 @@ export const Footer = () => {
                     python!
                 </Text>
 
-                <Flex  w='100%' justifyContent='space-between' >
+                <Flex  w='100%' justifyContent='space-between' mb='5rem'>
                     <Text color='rgba(239, 133, 91, 1)'>#BayArea </Text>
                     <Text color='rgba(239, 133, 91, 1)'>#FullStack </Text>
                     <Text color='rgba(239, 133, 91, 1)'>#Backend </Text>
@@ -46,12 +45,11 @@ export const Footer = () => {
 
             </Flex>
 
-            <Flex justifyContent='center' ml='200px'>
+            <Flex  ml='200px'>
                 <SocialIcons/>
             </Flex>
             
-
-        </HStack>
+        </Flex>
  
   )
 }

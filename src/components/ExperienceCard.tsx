@@ -7,7 +7,7 @@ const ExperienceCard = () => {
         description: "Hello! My name is Nicholas and I enjoy solving problems. My interest in coding started back in 2017 when I took CS61A — which introduced me to programing in python!"
     }
   return (
-    <VStack alignItems='start'>
+    <VStack alignItems='start' padding='1rem' maxWidth='30rem'>
       <Text color={"whiteColor"} fontSize={50}>{property.name}</Text>
       <Text color={"whiteColor"}>{property.description}</Text>
     </VStack>

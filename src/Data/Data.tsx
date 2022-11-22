@@ -1,7 +1,8 @@
 //Projects Data
-
-const ProjectData = [];
+const projectData = [];
 
 //Experience Data
+const experienceData = [];
 
-const ExperienceData = [];
+//Texts Data
+const textData = [];

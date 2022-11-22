@@ -11,11 +11,10 @@ import {
 
 export const SocialIcons = () => {
   return (
-    
-        <Flex //VSTACK
+
+        <Flex 
          direction={['row','column','column','column']}
          mt={['2rem','0rem', '0rem', '0rem']}
-        
         >
               <PFIconButton icon={<FaMedium/>}
                 ariaLabel = "medium icon"

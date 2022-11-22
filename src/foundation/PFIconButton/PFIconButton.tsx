@@ -19,7 +19,7 @@ const PFIconButton = (props: PFIconButtonProps) => {
     onClick={props.onClick}
     aria-label={props.ariaLabel}
     color ="white"
-    
+    _hover={{ bg: '#EF855B', color: 'green' }}
   />
   );
 }

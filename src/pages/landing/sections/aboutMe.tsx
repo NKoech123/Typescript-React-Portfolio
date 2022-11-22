@@ -1,21 +1,49 @@
 import { VStack,Image,Flex ,Text, HStack} from '@chakra-ui/react';
 import React from 'react';
+import { Container, chakra, shouldForwardProp } from '@chakra-ui/react';
 import Profile from '../../../assets/profile.jpg';
+import { motion, isValidMotionProp } from 'framer-motion';
 
+const ChakraBox = chakra(motion.div, {
+  /**
+   * Allow motion props and non-Chakra props to be forwarded.
+   */
+  shouldForwardProp: (prop) => isValidMotionProp(prop) || shouldForwardProp(prop),
+});
 
 export const AboutMe = () => {
   return (
   
-    <Flex  w ='83.33vw' ml='8.33%' mt='8.23%'>
+    <Flex  w ='83.33%' ml='8.33%' mt='8.23%'>
     <VStack alignItems='flex-start'>
 
     <HStack alignContent='space-between' flexDirection={
         ['column','column','row','row']
     }>
          
-      <Flex h={['305px']} w={['305px']} mr='70px'>
-          <Image borderRadius ='200px' src={Profile} alt='Nicholas Koech' />
-      </Flex>
+      <Container display='flex' alignItems='center' justifyContent='center'  h={['405px']} w={['405px']} mr='70px' >
+        
+            <ChakraBox
+              animate={{
+                x: [-40,40,0],
+                y: [40,-40,-40],
+              }}
+              // @ts-ignore no problem in operation, although type error appears.
+              transition={{
+                duration: 10,
+                ease: "easeInOut",
+                repeat: Infinity,
+                repeatType: "loop",
+              }}
+              padding="2"
+              display="flex"
+              justifyContent="center"
+              alignItems="center"
+            
+            >
+              <Image borderRadius ='16rem' height= '90%' width='100%' src={Profile} alt='Nicholas Koech' style={{ filter:  "grayscale(900)" }} />
+            </ChakraBox>
+      </Container>
 
       <Flex display='flex' ml='20px' w='60.40%' h='45.75%' direction='column'> 
           <Text color="whiteColor">
@@ -30,13 +58,13 @@ export const AboutMe = () => {
           <Text mt='10px' color="whiteColor">
             Here are a few skills I have leveraged on those projects
           </Text>
-
       </Flex>
 
     </HStack>
     <Flex>
       <Text whiteSpace='nowrap' fontWeight='800' mt='20px' fontSize={['20px','40px','60px','80px']} color="whiteColor">About Me <sub>02.</sub></Text>
     </Flex>
+    
     </VStack>
 
 
