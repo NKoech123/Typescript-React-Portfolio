@@ -14,7 +14,7 @@ export type ProjectCardProps = {
 const ProjectCard = (props: ProjectCardProps ) => {
 
   return (
-    <Flex mr='50px' _hover={{bg: '#121C20'}} borderRadius={20} padding={5}>
+    <Flex mr='50px' _hover={{bg: 'green.900'}} borderRadius={10} padding={5} border={20}>
         <Box maxWidth={400} maxHeight={500}>
             <Image src={props.imageUrl} alt={props.imageAlt}/>
             <Box mt='5px'>

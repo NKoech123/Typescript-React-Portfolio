@@ -1,10 +1,10 @@
-import { VStack,Image,Flex, Box ,Text, HStack} from '@chakra-ui/react';
+import { VStack,Image,Flex, Box ,Text, HStack, Circle} from '@chakra-ui/react';
 import { Container, chakra, shouldForwardProp } from '@chakra-ui/react';
 import Profile from '../../../assets/profile.jpg';
 import { motion, isValidMotionProp } from 'framer-motion';
 import Keyword from '../../../components/Keywords';
 import {VscTriangleRight} from "react-icons/vsc";
-
+import bgImg from '../../../assets/icons8-0-degrees-50.png';
 interface Skills{
   id: number;
   name: string;
@@ -40,8 +40,9 @@ export const AboutMe = () => {
     <HStack alignContent='space-between' flexDirection={
         ['column','column','row','row']
     }>
-         
+      
       <Container display='flex' alignItems='center' justifyContent='center'  h={['405px']} w={['405px']} mr='70px' >
+      
         
             <ChakraBox
               animate={{
@@ -60,9 +61,13 @@ export const AboutMe = () => {
               justifyContent="center"
               alignItems="center"
             >
-              <Image borderRadius ='16rem' height= '90%' width='100%' src={Profile} alt='Nicholas Koech' style={{ filter:  "grayscale(900)" }} />
+              {/* <Image borderRadius ='16rem' height= '90%' width='80%' src={bgImg} alt='Nicholas Koech' style={{ filter:  "grayscale(900)" }} position='absolute'/> */}
+              <Image borderRadius ='16rem' height= '90%' width='100%' src={Profile} alt='Nicholas Koech' style={{ filter:  "grayscale(900)" }} position='relative'/>
+              
             </ChakraBox>
+           
       </Container>
+     
 
       <Flex  ml='20px' w='60.40%' h='45.75%' direction='column'> 
           <Text color="whiteColor">
@@ -81,7 +86,7 @@ export const AboutMe = () => {
 
          { skills.map((skill) => (
               <Flex direction='column' mr='20px'>
-                  <Box display='flex' alignItems='center' mr='40px'>
+                  <Box display='flex' alignItems='center' mr='40px' mb='1rem'>
                     <Keyword  arrowIcon={VscTriangleRight} color={'#EF855B'} /><Text color='#EF855B'>{skill.name}</Text>
                   </Box>
                   <Box display='column'>
