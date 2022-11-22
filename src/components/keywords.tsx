@@ -1,5 +1,5 @@
 import React from 'react'
-import {Icon, Box} from '@chakra-ui/react';
+import {Icon, Flex} from '@chakra-ui/react';
 import { IconType } from 'react-icons/lib';
 
 type keywordProps = {
@@ -8,9 +8,9 @@ type keywordProps = {
 
 function Keyword({arrowIcon}:keywordProps) {
   return (
-    <Box>
+    <Flex justifyItems='center' justifyContent='center'>
        <Icon  as={arrowIcon} color="lightGreen"/> 
-    </Box>
+    </Flex>
   )
 }
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import {Text,Flex, HStack} from '@chakra-ui/react'
 import { SocialIcons } from '../../../components/SocialIcons';
+import PFButton from '../../../foundation/PFButton/PFButton';
 
 export const Footer = () => {
   return (
@@ -25,8 +26,23 @@ export const Footer = () => {
                     <Text color='rgba(239, 133, 91, 1)'>#FullStack </Text>
                     <Text color='rgba(239, 133, 91, 1)'>#Backend </Text>
                     <Text color='rgba(239, 133, 91, 1)'> #BLM</Text>
-
                 </Flex>
+                <PFButton
+                    variant="outline"
+                    _hover={{
+                        color: "green.200",
+                        borderColor: "green.200"
+                    }}
+                    stylesProps={{
+                        fontSize: "16px",
+                        fontWeight: "400",
+                        borderColor:"#EF855B",
+                        color: "#EF855B"
+                    }}
+                    OnClick={() => {}}
+                >
+                Say hello!
+                </PFButton>
 
             </Flex>
 

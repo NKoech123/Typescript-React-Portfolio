@@ -6,6 +6,7 @@ type PFButtonType = {
   children: any;
   stylesProps?: Object;
   OnClick?: any;
+  _hover?:any
 };
 
 export default function PFButton({
@@ -13,9 +14,15 @@ export default function PFButton({
   children,
   stylesProps = {},
   OnClick,
+  _hover,
 }: PFButtonType) {
   return (
-    <Button variant={variant} sx={stylesProps} onClick={OnClick}>
+    <Button variant={variant} sx={stylesProps} onClick={OnClick}
+    // _hover={{
+    //   background: "green.200",
+    // }}
+    _hover={_hover}
+    >
       {children}{" "}
     </Button>
   );

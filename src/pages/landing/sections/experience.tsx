@@ -7,9 +7,11 @@ export const Experience = () => {
 
     <Flex  alignItems="center"
      direction={["column", "row", "row", "row"]}
-     w ='83.33vw' h='83.53vh' ml='8.33%' mt='8.23%'
+     ml='8.33%' mt='8.23%'
     >
-    <VStack alignItems='end'>
+    <VStack alignItems='end'
+    mr='10px'
+    >
       <Flex flexDirection={["column", "column", "row", "row"]}>
         <ExperienceCard/>
         <ExperienceCard/>
