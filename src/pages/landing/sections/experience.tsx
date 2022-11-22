@@ -1,6 +1,6 @@
-import React from 'react'
-import { Flex, HStack, Text, VStack, Divider} from '@chakra-ui/react';
+import { Flex, Text, VStack, Divider} from '@chakra-ui/react';
 import ExperienceCard from '../../../components/ExperienceCard';
+import { experienceData } from '../../../Data/Data';
 
 export const Experience = () => {
   return (
@@ -13,10 +13,13 @@ export const Experience = () => {
     mr='10px'
     >
       <Flex flexDirection={["column", "column", "row", "row"]}>
-        <ExperienceCard/>
-        <ExperienceCard/>
-        <ExperienceCard/>
+        {experienceData.map((children) =>(
+          <ExperienceCard
+           {...children}
+          />
+        ))}
       </Flex>
+      
       <Divider orientation='horizontal' borderWidth='3px' fontWeight={'bold'}/>
    
       <Text whiteSpace='nowrap' fontWeight='800' mt='20px' fontSize={['40px','40px','60px','60px']} color="whiteColor">
