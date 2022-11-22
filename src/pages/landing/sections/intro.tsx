@@ -1,5 +1,5 @@
 import React from 'react'
-import { Flex,Text, VStack, Box } from "@chakra-ui/react";
+import { Flex,Text, Box } from "@chakra-ui/react";
 
 import Keyword from '../../../components/Keywords';
 import {VscTriangleRight} from "react-icons/vsc";
