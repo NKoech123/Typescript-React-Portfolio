@@ -1,5 +1,5 @@
 import React from 'react'
-import {VStack} from "@chakra-ui/react";
+import {Flex} from "@chakra-ui/react";
 import PFIconButton 
 from '../foundation/PFIconButton/PFIconButton';
 
@@ -12,7 +12,11 @@ import {
 export const SocialIcons = () => {
   return (
     
-        <VStack spacing={10}>
+        <Flex //VSTACK
+         direction={['row','column','column','column']}
+         mt={['2rem','0rem', '0rem', '0rem']}
+        
+        >
               <PFIconButton icon={<FaMedium/>}
                 ariaLabel = "medium icon"
                 onClick={()=>{}}
@@ -27,7 +31,7 @@ export const SocialIcons = () => {
                 ariaLabel = "Github Icon"
                 onClick={()=>{}}    
               />
-        </VStack>
+        </Flex>
   )
 }
 
