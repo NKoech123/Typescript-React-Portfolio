@@ -1,8 +1,10 @@
 import { Flex, Text, VStack, Divider} from '@chakra-ui/react';
+import { useState } from 'react';
 import ExperienceCard from '../../../components/ExperienceCard';
 import { experienceData } from '../../../Data/Data';
 
 export const Experience = () => {
+  const [isShown, setIsShown] = useState(false);
   return (
 
     <Flex  alignItems="center"
@@ -13,10 +15,13 @@ export const Experience = () => {
     mr='10px'
     >
       <Flex flexDirection={["column", "column", "row", "row"]}>
-        {experienceData.map((children) =>(
+        {experienceData.map((children, index) =>(
+         
+          <div key={index}>
           <ExperienceCard
            {...children}
           />
+          </div>
         ))}
       </Flex>
       
