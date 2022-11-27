@@ -23,22 +23,20 @@ export const projectData = [
 //Experience Data
 export const experienceData = [
     {
-      id: 1,
       name : "Experience 1", 
       description: "Hello! My name is Nicholas and I enjoy solving problems. My interest in coding started back in 2017 when I took CS61A — which introduced me to programing in python!",
-      display: "inline"
+      isDisplay: true
     },
     { 
-      id: 2,
       name : "Experience 1", 
       description: "Hello! My name is Nicholas and I enjoy solving problems. My interest in coding started back in 2017 when I took CS61A — which introduced me to programing in python!",
-      display: "none"
+      isDisplay: false
     },
-    {
-      id: 3,
+    { 
+
       name : "Experience 1", 
       description: "Hello! My name is Nicholas and I enjoy solving problems. My interest in coding started back in 2017 when I took CS61A — which introduced me to programing in python!",
-      display: "none"
+      isDisplay: false
     }
 ];
 

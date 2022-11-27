@@ -2,19 +2,17 @@ import {VStack, Text} from "@chakra-ui/react";
 import { useState } from "react";
 export type ExperienceCardProps={
   name:string;
-  description:string;
-  display: string; // 'none', "inline"
+  description: string;
+  isDisplay: boolean;
 };
 
 const ExperienceCard = ( props: ExperienceCardProps ) => {
-  const [isShown, setIsShown] = useState(true);
+
 
   return (
-    <VStack alignItems={['center','center','start','start']} padding='1rem' maxWidth='30rem' minWidth='25rem'> 
+    <VStack alignItems={['center','center','start','start']} padding='1rem' maxWidth='30rem' minWidth='25rem' minHeight='15rem'> 
       <Text color={"whiteColor"} fontSize={[20,20,40,40]}>{props.name}</Text>
-      <Text color={"whiteColor"} display={props.display}>{props.description}</Text>
-   
-      
+      <Text color={"whiteColor"} display={props.isDisplay? 'inline': 'none'}>{props.description}</Text>
     </VStack>
   )
 }
