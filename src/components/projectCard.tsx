@@ -4,7 +4,10 @@ import {Image,
   Flex} 
 from "@chakra-ui/react";
 import { motion } from "framer-motion";
-
+import PFIconButton from "../foundation/PFIconButton/PFIconButton";
+import {
+  FaGithub,
+} from "react-icons/fa";
 
 export type ProjectCardProps = {
   imageUrl: string;
@@ -35,6 +38,12 @@ const ProjectCard = (props: ProjectCardProps ) => {
                   {props.description} 
                 </Text>
             </Box>
+          <Box display='flex' justifyContent='end'>
+            <PFIconButton icon={<FaGithub/>}
+                ariaLabel = "Github Icon"
+                onClick={()=>{}}    
+            />
+          </Box>
         </Box>
     </Flex>
   );
