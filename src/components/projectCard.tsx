@@ -3,6 +3,8 @@ import {Image,
   Text, 
   Flex} 
 from "@chakra-ui/react";
+import { motion } from "framer-motion";
+
 
 export type ProjectCardProps = {
   imageUrl: string;
@@ -16,7 +18,15 @@ const ProjectCard = (props: ProjectCardProps ) => {
   return (
     <Flex mr='50px' _hover={{bg: 'green.900'}} borderRadius={10} padding={5} border={20} boxShadow='xl'>
         <Box maxWidth={400} maxHeight={500}>
-            <Image src={props.imageUrl} alt={props.imageAlt}/>
+          <motion.div
+            whileHover={{
+              scale: 1.08,
+          
+            }}
+          >
+           <Image src={props.imageUrl} alt={props.imageAlt}/>
+          </motion.div>
+           
             <Box mt='5px'>
                 <Text color={"whiteColor"} fontSize='20px' fontWeight='bold' py={['5px','5px','5px','5px']}>
                   {props.name}
@@ -31,3 +41,4 @@ const ProjectCard = (props: ProjectCardProps ) => {
 };
 
 export default ProjectCard
+
