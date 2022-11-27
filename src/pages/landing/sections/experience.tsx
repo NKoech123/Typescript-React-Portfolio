@@ -50,7 +50,6 @@ export const Experience = () => {
         ))}
       </Flex>
       
-      {/* <Divider orientation='horizontal' borderWidth='3px' fontWeight={'bold'}/> */}
       <Text whiteSpace='nowrap' fontWeight='800' mt='20px' fontSize={['40px','40px','60px','60px']} color="whiteColor">
         Experience <sub>03.</sub>
       </Text>
