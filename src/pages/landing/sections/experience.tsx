@@ -13,12 +13,11 @@ export const Experience = () => {
     for (let id in newData){
         let idx = parseInt(id)
         if (idx == index){
-          console.log(index)
           newData[index].isDisplay=true
-          setExpData(newData)
         } else if (newData[idx].isDisplay){
           newData[idx].isDisplay=false
         }
+        setExpData(newData)
     }
     console.log(expData)
   }
