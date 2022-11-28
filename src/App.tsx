@@ -23,6 +23,7 @@ import customTheme from "../src/theme";
 export const App = () => (
   <ChakraProvider theme={ customTheme }>
       <Header/>
+
       <Routes>
         <Route path='/' element={ <Intro/>}/>
         <Route path='/about' element={ <AboutMe/>}/>
