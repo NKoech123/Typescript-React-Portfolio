@@ -9,6 +9,7 @@ export const Projects = () => {
     mt='1.23%'
     mb='2px'
     flexDir='column'
+    className='projects'
     >
       <VStack alignItems='start'>
         <Box  mb= '20px' justifyContent='start' pl='15px'>

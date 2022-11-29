@@ -19,6 +19,7 @@ export const Intro = () => {
           width='80%'
           mx='10%'
           my='15%'
+          className='intro'
           >
             <Flex
               alignItems= {['center','center','start','start']}

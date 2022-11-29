@@ -18,6 +18,7 @@ export const Footer = () => {
          w ='83.33vw' 
          ml='8.33%' 
          mt='8.23%'
+         className='contact'
          >
             <Flex direction='column' 
             mb='12px'

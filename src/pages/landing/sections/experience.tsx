@@ -36,6 +36,7 @@ export const Experience = () => {
     <Flex  alignItems="center"
      direction={["column", "row", "row", "row"]}
      ml='8.33%' mt='8.23%'
+     className='experience'
     >
     <VStack alignItems='end'
     mr='10px'

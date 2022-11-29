@@ -1,6 +1,6 @@
-import React from 'react';
 import { Flex,Text} from "@chakra-ui/react";
 import { Link as ChakraLink, Box } from '@chakra-ui/react';
+import { Link } from 'react-scroll';
 
 const Header = () => {
   return (
@@ -12,39 +12,40 @@ const Header = () => {
           direction={["column", "column", "row", "row"]}
           gap='2.5rem'
         >
-       <Box>
-          <ChakraLink href="/">
-            <Text fontWeight='900'  fontSize='30px' color={"whiteColor"}>NK.</Text>
-          </ChakraLink>
-       </Box>
+              <Box>
+                <ChakraLink href="/">
+                  <Text fontWeight='900'  fontSize='30px' color={"whiteColor"}>NK.</Text>
+                </ChakraLink>
+              </Box>
 
       <Flex  direction={["column", "column", "row", "row"]} 
              alignItems = {['center','center','space-between','space-between']}
              gap= {['2.5rem','2.5rem','0rem','0rem']}
              as='nav'
              >
+            
               <Box mr={['0px','80px','80px','80px']}>
-                <ChakraLink href="/about">
-                   <Text fontWeight='600'  fontSize='20px' color={"whiteColor"}>About</Text>
-                </ChakraLink>
+                <Link activeClass="active" to="about" spy={true} smooth={true} offset={50} duration={500} >
+                  <Text fontWeight='600'  fontSize='20px' color={"whiteColor"}>About</Text>
+                </Link>
               </Box>
 
               <Box mr={['0px','80px','80px','80px']}>
-                <ChakraLink href="/experience">
+                <Link activeClass="active" to="experience" spy={true} smooth={true} offset={50} duration={500} >
                   <Text fontWeight='600'  fontSize='20px' color={"whiteColor"}>Experience</Text>
-                </ChakraLink>
+                </Link>
               </Box>
 
               <Box  mr={['0px','80px','80px','80px']}>
-                <ChakraLink href="/projects">
-                    <Text fontWeight='600'  fontSize='20px' color={"whiteColor"}>Projects</Text>
-                </ChakraLink>
+                <Link activeClass="active" to="projects" spy={true} smooth={true} offset={50} duration={500} >
+                  <Text fontWeight='600'  fontSize='20px' color={"whiteColor"}>Projects</Text>
+                </Link>
               </Box>
 
               <Box>
-                <ChakraLink href="/contact">
+                <Link activeClass="active" to="contact" spy={true} smooth={true} offset={50} duration={500} >
                   <Text fontWeight='600'  fontSize='20px' color={"whiteColor"}>Contact</Text>
-                </ChakraLink>
+                </Link>
               </Box>
       </Flex>
        

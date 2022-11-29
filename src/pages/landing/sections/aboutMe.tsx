@@ -34,7 +34,7 @@ const ChakraBox = chakra(motion.div, {
 export const AboutMe = () => {
   return (
   
-    <Flex  w ='83.33%' ml='8.33%' mt='8.23%'>
+    <Flex  w ='83.33%' ml='8.33%' mt='8.23%' className='about'>
     <VStack alignItems='flex-start'>
 
     <HStack alignContent='space-between' flexDirection={
@@ -43,7 +43,6 @@ export const AboutMe = () => {
       
       <Container display='flex' alignItems='center' justifyContent='center'  h={['405px']} w={['405px']} mr='70px' >
       
-        
             <ChakraBox
               animate={{
                 x: [-40,40,0],
