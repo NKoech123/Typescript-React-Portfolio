@@ -2,7 +2,7 @@ import { VStack,Image,Flex, Box ,Text, HStack, Circle} from '@chakra-ui/react';
 import { Container, chakra, shouldForwardProp } from '@chakra-ui/react';
 import Profile from '../../../assets/profile.jpg';
 import { motion, isValidMotionProp } from 'framer-motion';
-import Keyword from '../../../components/Keywords';
+import Keyword from '../../../components/keywords';
 import {VscTriangleRight} from "react-icons/vsc";
 import bgImg from '../../../assets/icons8-0-degrees-50.png';
 interface Skills{

@@ -1,10 +1,10 @@
 import React from 'react'
-import { Intro } from "./sections/Intro";
-import { AboutMe } from './sections/AboutMe';
-import { Experience } from './sections/Experience';
+import { Intro } from "./sections/intro";
+import { AboutMe } from './sections/aboutMe';
+import { Experience } from './sections/experience';
 import {Box} from "@chakra-ui/react";
-import {Projects} from './sections/Projects'
-import {Footer} from './sections/Footer'
+import {Projects} from './sections/projects'
+import {Footer} from './sections/footer'
 
 function Landing() {
   return (

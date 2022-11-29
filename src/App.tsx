@@ -10,12 +10,12 @@ import {
   Link as RouteLink
 } from "react-router-dom";
 
-import Header from './components/Header';
-import { AboutMe } from "./pages/landing/sections/AboutMe";
-import { Intro } from "./pages/landing/sections/Intro";
-import { Footer } from "./pages/landing/sections/Footer";
-import { Projects } from "./pages/landing/sections/Projects";
-import { Experience } from "./pages/landing/sections/Experience";
+import Header from './components/header';
+import { AboutMe } from "./pages/landing/sections/aboutMe";
+import { Intro } from "./pages/landing/sections/intro";
+import { Footer } from "./pages/landing/sections/footer";
+import { Projects } from "./pages/landing/sections/projects";
+import { Experience } from "./pages/landing/sections/experience";
 
 
 import customTheme from "../src/theme";

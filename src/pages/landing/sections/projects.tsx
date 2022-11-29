@@ -1,5 +1,5 @@
 import {Flex, Text, Box, VStack} from '@chakra-ui/react'
-import ProjectCard from '../../../components/ProjectCard';
+import ProjectCard from '../../../components/projectCard';
 import { projectData } from '../../../Data/Data';
 
 export const Projects = () => {

@@ -1,11 +1,11 @@
 import React from 'react'
 import { Flex,Text, Box } from "@chakra-ui/react";
 
-import Keyword from '../../../components/Keywords';
+import Keyword from '../../../components/keywords';
 import {VscTriangleRight} from "react-icons/vsc";
 
 import PFButton from '../../../foundation/PFButton/PFButton';
-import { SocialIcons } from '../../../components/SocialIcons';
+import { SocialIcons } from '../../../components/socialIcons';
 
 const languages  = ['Python', 'Typescript', 'SQL', 'HTML', 'CSS'];
 
